@@ -2,15 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+### IMPORT DATASET
+
 lines = pd.read_excel("food_dataset.xlsx")
 
-""" headers = ['code', 'product_name_fr', 'quantity', 'brands', 'energy-kcal_value',
- 'saturated-fat_value', 'sugars_value', 'fiber_value', 'proteins_value',
- 'salt_value', 'Fruit/Vegetable, %', 'off:nutriscore_grade',
- 'off:nutriscore_score']"""
+### DEFINE PARAMETERS
 
-###
-
+# criteria
 criteria = [
     'Energy',#'energy-kcal_value',
     'Sugars',#'sugars_value',
@@ -20,12 +18,20 @@ criteria = [
     'Fiber',#'fiber_value',
     'Fruit/vegetable'#'Fruit/Vegetable, %'
 ]
-weights = [2,2,2,2,1,1,1]
-#weights = [2,2,2,2,-1,-1,-1]
-total_weights = sum(weights)
-weights = [w/total_weights for w in weights]
+
+# 2 sets of weights
+weights1 = [2,2,2,2,1,1,1]
+total_weights = sum(weights1)
+weights = [w/total_weights for w in weights1]
+
+weights2 = [2,2,2,2,1,1,1]
+total_weights = sum(weights2)
+weights = [w/total_weights for w in weights2]
+
+# threashold
 threshold = 0.5
 
+# convert data loaded to usable data for our algorithms
 def data_value(lines, criteria):
     data = pd.DataFrame(lines)
     for crit in criteria:
@@ -37,15 +43,30 @@ def data_value(lines, criteria):
 
 data = data_value(lines, criteria)
 
+# generate limiting profiles
 def generate_limiting_profiles(lines,criteria):
+    # using uniform distribution of [min,max]
     res = []
     for crit in criteria:
         mini,maxi = lines[crit].min(),lines[crit].max()
         profile = [mini + (maxi-mini)*i/5 for i in range(6)]
         res.append(profile)
     return res
+def generate_limiting_profiles2(lines,criteria):
+    # using quantiles
+    res = []
+    for crit in criteria:
+        profile = []
+        for i in range(6):
+            profile.append(lines[crit].quantile(i/5))
+        mini,maxi = lines[crit].min(),lines[crit].max()
+        res.append(profile)
+    return res
 
-limiting_profiles = generate_limiting_profiles(data,criteria)
+limiting_profiles = generate_limiting_profiles2(data,criteria)
+
+
+###  MAJORITY SORTING SCORE
 
 def compute_score(a,weights,profile):
     res = 0
@@ -54,6 +75,7 @@ def compute_score(a,weights,profile):
             res += weights[i]
     return res
 
+# profile format transformation
 def load_profiles(limiting_profiles):
     profiles = []
     for i in range(len(limiting_profiles[0])):
@@ -63,10 +85,11 @@ def load_profiles(limiting_profiles):
         profiles.append(profile)
     return profiles
 
+# Pessimistic sorting of 1 element
 def PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
     profiles = load_profiles(limiting_profiles)
     scores = []
-    category = 0
+    category = -1
     for profile in profiles:
         score = compute_score(a,weights,profile)
         scores.append(score)
@@ -74,6 +97,7 @@ def PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
             category +=1
     return category
 
+# Pessimistic sort
 def PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold):
     data_res = []
     for i in range(len(data)):
@@ -82,6 +106,7 @@ def PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold
         data_res.append([data['code'][i],category])
     return data_res
 
+# Optimistic sorting of 1 element
 def OptimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
     profiles = load_profiles(limiting_profiles)[::-1]
     scores = []
@@ -93,6 +118,7 @@ def OptimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
             category +=1
     return category
 
+# Optimistic sort
 def OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold):
     data_res = []
     for i in range(len(data)):
@@ -101,6 +127,7 @@ def OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
         data_res.append([data['code'][i],category])
     return data_res
 
+# save data in files
 def write_sorting(filename,data):
     data_str = ""
     for l in data:
@@ -113,6 +140,7 @@ def write_sorting(filename,data):
     output.write(data_str)
     output.close()
 
+# save total sorts
 def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
     pessimisticScore = PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
     optimisticScore = OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
@@ -122,6 +150,17 @@ def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
         if pessimisticScore[i][1] != optimisticScore[i][1]:
             print(pessimisticScore[i],optimisticScore[i])
 
+
+### COMPARE SCORES
+
+# load original score
+def extract_original_score(lines):
+    res = []
+    for i in range(len(lines)):
+        res.append([lines['code'][i],lines['Nutriscore'][i]])
+    return res
+
+# stats for 1 given score
 def stats_nutriscores(score):
     X = [i for i in range(5)]
     Y = [0 for _ in range(5)]
@@ -133,6 +172,7 @@ def stats_nutriscores(score):
 
 stats_nutriscores(PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
 
+# compare 2 nutriscores
 def compare_nutriscores(score1,score2):
     res = [ {} for _ in range(5) ]
     for i in range(len(score1)):
@@ -144,12 +184,7 @@ def compare_nutriscores(score1,score2):
             res[cat1][cat2] += 1
     return res
 
-def extract_original_score(lines):
-    res = []
-    for i in range(len(lines)):
-        res.append([lines['code'][i],lines['Nutriscore'][i]])
-    return res
-
+# display comparison of 2 nutriscores
 def stats_compare_nutriscores(score1,score2):
     comparison = compare_nutriscores(score1,score2)
     labels = ['0','1','2','3','4']
@@ -174,6 +209,9 @@ def stats_compare_nutriscores(score1,score2):
     ax.legend()
 
     plt.show()
+
+
+### COMPARE ORIGINAL SORT AND PESSIMISTIC SORT
 
 score1 = (PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
 score2 = extract_original_score(lines)
