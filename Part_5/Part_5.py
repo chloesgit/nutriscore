@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 lines = pd.read_excel("food_dataset.xlsx")
 
@@ -132,5 +133,50 @@ def stats_nutriscores(score):
 
 stats_nutriscores(PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
 
+def compare_nutriscores(score1,score2):
+    res = [ {} for _ in range(5) ]
+    for i in range(len(score1)):
+        cat1 = score1[i][1]
+        cat2 = score2[i][1]
+        if cat2 not in res[cat1].keys():
+            res[cat1][cat2] = 1
+        else:
+            res[cat1][cat2] += 1
+    return res
+
+def extract_original_score(lines):
+    res = []
+    for i in range(len(lines)):
+        res.append([lines['code'][i],lines['Nutriscore'][i]])
+    return res
+
+def stats_compare_nutriscores(score1,score2):
+    comparison = compare_nutriscores(score1,score2)
+    labels = ['0','1','2','3','4']
+    score2_rep = [[0 for _ in range(5)] for _ in range(5)]
+    for i,dic in enumerate(comparison):
+        for cat in dic.keys():
+            score2_rep[ord(cat)-97][i] = dic[cat]
+    width = 0.35       # the width of the bars: can also be len(x) sequence
+
+    fig, ax = plt.subplots()
+
+    ax.bar(labels, score2_rep[0], width, label='a')
+    bottom = np.array(score2_rep[0])
+
+    for i in range(1,5):
+        ax.bar(labels, score2_rep[i], width, bottom=bottom,
+            label=str(chr(i+97)))
+        bottom += np.array(score2_rep[i])
+
+    ax.set_ylabel('Number')
+    ax.set_title('Score2 categories distribution depending on score1 category')
+    ax.legend()
+
+    plt.show()
+
+score1 = (PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
+score2 = extract_original_score(lines)
+stats_compare_nutriscores(score1,score2)
 
 compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
