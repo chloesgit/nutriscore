@@ -118,7 +118,7 @@ def PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     return data_res
     
 def OptimisticElectre(a,weights,limiting_profiles,threshold):
-    category = 0
+    category = -1
     profiles = load_profiles(limiting_profiles)
     for k in range(6):
         s = P_lambda(a,profiles[k],weights,threshold)
@@ -131,55 +131,6 @@ def OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold):
     for i in range(len(data)):
         a = [data[criterium][i] for criterium in criteria]
         category = OptimisticElectre(a,weights,limiting_profiles,threshold)
-        data_res.append([data['code'][i],category])
-    return data_res
-
-def compute_score(a,weights,profile):
-    res = 0
-    for i,w in enumerate(a):
-        if w > profile[i]:
-            res += weights[i]
-    return res
-
-# Pessimistic sorting of 1 element
-def PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
-    profiles = load_profiles(limiting_profiles)
-    scores = []
-    category = -1
-    for profile in profiles:
-        score = compute_score(a,weights,profile)
-        scores.append(score)
-        if score >= threshold:
-            category +=1
-    return category
-
-# Pessimistic sort
-def PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold):
-    data_res = []
-    for i in range(len(data)):
-        a = [data[criterium][i] for criterium in criteria]
-        category = PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold)
-        data_res.append([data['code'][i],category])
-    return data_res
-
-# Optimistic sorting of 1 element
-def OptimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
-    profiles = load_profiles(limiting_profiles)[::-1]
-    scores = []
-    category = 0
-    for profile in profiles:
-        score = compute_score(a,weights,profile)
-        scores.append(score)
-        if score < threshold:
-            category +=1
-    return category
-
-# Optimistic sort
-def OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold):
-    data_res = []
-    for i in range(len(data)):
-        a = [data[criterium][i] for criterium in criteria]
-        category = PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold)
         data_res.append([data['code'][i],category])
     return data_res
 
@@ -198,8 +149,8 @@ def write_sorting(filename,data):
 
 # save total sorts
 def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
-    pessimisticScore = PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
-    optimisticScore = OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
+    pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
+    optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     write_sorting("PessimisticSort_"+str(threshold).replace('.','')+".csv",pessimisticScore)
     write_sorting("OptimisticSort_"+str(threshold).replace('.','')+".csv",optimisticScore)
     for i in range(len(pessimisticScore)):
@@ -225,11 +176,6 @@ def stats_nutriscores(score):
     plt.plot(X,Y)
     plt.title('Number of products by category')
     plt.show()
-
-stats_nutriscores(PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
-stats_nutriscores(PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
-stats_nutriscores(OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
-
 
 # compare 2 nutriscores
 def compare_nutriscores(score1,score2):
@@ -280,11 +226,11 @@ def stats_compare_nutriscores(score1,score2):
 
 ### COMPARE ORIGINAL SORT AND PESSIMISTIC SORT
 
-"""for threshold in [0.5,0.6,0.7]:
-    score1 = (PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
+for threshold in [0.5,0.6,0.7]:
+    score1 = (PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
     score2 = extract_original_score(lines)
     stats_compare_nutriscores(score1,score2)
-    score3 = OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
+    score3 = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     stats_compare_nutriscores(score1,score3)
 
-compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)"""
+compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
