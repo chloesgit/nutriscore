@@ -1,6 +1,7 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-lines = pd.read_csv("Snacks with chocolate from France - Shortlisted products.csv")
+lines = pd.read_excel("food_dataset.xlsx")
 
 """ headers = ['code', 'product_name_fr', 'quantity', 'brands', 'energy-kcal_value',
  'saturated-fat_value', 'sugars_value', 'fiber_value', 'proteins_value',
@@ -10,38 +11,26 @@ lines = pd.read_csv("Snacks with chocolate from France - Shortlisted products.cs
 ###
 
 criteria = [
-    'energy-kcal_value',
-    'sugars_value',
-    'saturated-fat_value',
-    'salt_value',
-    'proteins_value',
-    'fiber_value',
-    'Fruit/Vegetable, %'
+    'Energy',#'energy-kcal_value',
+    'Sugars',#'sugars_value',
+    'Saturated fatty acids',#'saturated-fat_value',
+    'Salt',#'salt_value',
+    'Proteins',#'proteins_value',
+    'Fiber',#'fiber_value',
+    'Fruit/vegetable'#'Fruit/Vegetable, %'
 ]
-#weights = [2,2,2,2,1,1,1]
-weights = [2,2,2,2,-1,-1,-1]
+weights = [2,2,2,2,1,1,1]
+#weights = [2,2,2,2,-1,-1,-1]
 total_weights = sum(weights)
 weights = [w/total_weights for w in weights]
 threshold = 0.5
-limiting_profiles = [
-    [2*i for i in range(6)], #Crit1: Energy
-    [2*i for i in range(6)], #Crit2: Sugars
-    [2*i for i in range(6)], #Crit3: Saturated fat
-    [2*i for i in range(6)], #Crit4: Salt
-    [2*i for i in range(6)], #Crit5: Proteins
-    [2*i for i in range(6)], #Crit6: Fiber
-    [2*i for i in range(6)]  #Crit7: Fruits & veg
-]
 
 def data_value(lines, criteria):
     data = pd.DataFrame(lines)
     for crit in criteria:
         line = []
         for val in lines[crit]:
-            if str(val) != "nan":
-                line.append(float(str(val).replace(',','.')))
-            else:
-                line.append(0)
+            line.append(val)
         data[crit] = line
     return data
 
@@ -60,9 +49,8 @@ limiting_profiles = generate_limiting_profiles(data,criteria)
 def compute_score(a,weights,profile):
     res = 0
     for i,w in enumerate(a):
-        if w != "nan":
-            if w > profile[i]:
-                res += weights[i]
+        if w > profile[i]:
+            res += weights[i]
     return res
 
 def load_profiles(limiting_profiles):
@@ -83,7 +71,6 @@ def PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
         scores.append(score)
         if score >= threshold:
             category +=1
-    print(scores)
     return category
 
 def PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold):
@@ -101,7 +88,6 @@ def OptimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
     for profile in profiles:
         score = compute_score(a,weights,profile)
         scores.append(score)
-        
         if score < threshold:
             category +=1
     return category
@@ -122,17 +108,29 @@ def write_sorting(filename,data):
             l_str += str(el) + ","
         data_str += l_str[:-1]+"\n"
     print("writing sorting in "+filename+"...")
-    output = open(filename,"w")
+    output = open('Part_5/Sorts/'+filename,"w")
     output.write(data_str)
     output.close()
 
 def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
     pessimisticScore = PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
     optimisticScore = OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
-    write_sorting("PessimisticSort_"+str(threshold)+".csv",pessimisticScore)
-    write_sorting("OptimisticSort_"+str(threshold)+".csv",optimisticScore)
+    write_sorting("PessimisticSort_"+str(threshold).replace('.','')+".csv",pessimisticScore)
+    write_sorting("OptimisticSort_"+str(threshold).replace('.','')+".csv",optimisticScore)
     for i in range(len(pessimisticScore)):
-        if pessimisticScore[i] != optimisticScore[i]:
+        if pessimisticScore[i][1] != optimisticScore[i][1]:
             print(pessimisticScore[i],optimisticScore[i])
+
+def stats_nutriscores(score):
+    X = [i for i in range(5)]
+    Y = [0 for _ in range(5)]
+    for el in score:
+        Y[el[1]] += 1
+    plt.plot(X,Y)
+    plt.title('Number of products by category')
+    plt.show()
+
+stats_nutriscores(PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
+
 
 compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
