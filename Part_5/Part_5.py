@@ -68,13 +68,6 @@ limiting_profiles = generate_limiting_profiles2(data,criteria)
 
 ###  MAJORITY SORTING SCORE
 
-def compute_score(a,weights,profile):
-    res = 0
-    for i,w in enumerate(a):
-        if w > profile[i]:
-            res += weights[i]
-    return res
-
 # profile format transformation
 def load_profiles(limiting_profiles):
     profiles = []
@@ -84,6 +77,69 @@ def load_profiles(limiting_profiles):
             profile.append(limiting_profiles[j][i])
         profiles.append(profile)
     return profiles
+
+def concordance_index(a,b,weights):
+    res = 0
+    for i in range(len(a)):
+        if b[i] - a[i] <= 0: # we consider each p_i = 0
+            res += 1*weights[i]
+    return res
+
+def outranking_relation(a,b,weights,threshold):
+    c = concordance_index(a,b,weights)
+    if c >= threshold:
+        return 1
+    else:
+        return 0
+
+def P_lambda(a,b,weights,threshold):
+    c1 = outranking_relation(a,b,weights,threshold)
+    c2 = outranking_relation(b,a,weights,threshold)
+    if c1 == 1 and c2 == 0:
+        return 1
+    else:
+        return 0
+    
+def PessimisticElectre(a,weights,limiting_profiles,threshold):
+    category = 5
+    profiles = load_profiles(limiting_profiles)
+    for k in range(5,-1,-1):
+        s = outranking_relation(a,profiles[k],weights,threshold)
+        if s == 0:
+            category -= 1
+    return category
+
+def PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold):
+    data_res = []
+    for i in range(len(data)):
+        a = [data[criterium][i] for criterium in criteria]
+        category = PessimisticElectre(a,weights,limiting_profiles,threshold)
+        data_res.append([data['code'][i],category])
+    return data_res
+    
+def OptimisticElectre(a,weights,limiting_profiles,threshold):
+    category = 0
+    profiles = load_profiles(limiting_profiles)
+    for k in range(6):
+        s = P_lambda(a,profiles[k],weights,threshold)
+        if s == 0:
+            category += 1
+    return category
+
+def OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold):
+    data_res = []
+    for i in range(len(data)):
+        a = [data[criterium][i] for criterium in criteria]
+        category = OptimisticElectre(a,weights,limiting_profiles,threshold)
+        data_res.append([data['code'][i],category])
+    return data_res
+
+def compute_score(a,weights,profile):
+    res = 0
+    for i,w in enumerate(a):
+        if w > profile[i]:
+            res += weights[i]
+    return res
 
 # Pessimistic sorting of 1 element
 def PessimisticmajoritySortingElement(a,weights,limiting_profiles,threshold):
@@ -171,6 +227,9 @@ def stats_nutriscores(score):
     plt.show()
 
 stats_nutriscores(PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
+stats_nutriscores(PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
+stats_nutriscores(OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
+
 
 # compare 2 nutriscores
 def compare_nutriscores(score1,score2):
@@ -184,14 +243,22 @@ def compare_nutriscores(score1,score2):
             res[cat1][cat2] += 1
     return res
 
+def transform_dict_to_plot_value(array):
+    score2_rep = [[0 for _ in range(5)] for _ in range(5)]
+    for i,dic in enumerate(array):
+        for cat in dic.keys():
+            try:
+                score2_rep[cat][i] = dic[cat]
+            except:
+                score2_rep[ord(cat)-97][i] = dic[cat]
+    return score2_rep
+
 # display comparison of 2 nutriscores
 def stats_compare_nutriscores(score1,score2):
     comparison = compare_nutriscores(score1,score2)
     labels = ['0','1','2','3','4']
-    score2_rep = [[0 for _ in range(5)] for _ in range(5)]
-    for i,dic in enumerate(comparison):
-        for cat in dic.keys():
-            score2_rep[ord(cat)-97][i] = dic[cat]
+    score2_rep = transform_dict_to_plot_value(comparison)
+
     width = 0.35       # the width of the bars: can also be len(x) sequence
 
     fig, ax = plt.subplots()
@@ -213,8 +280,11 @@ def stats_compare_nutriscores(score1,score2):
 
 ### COMPARE ORIGINAL SORT AND PESSIMISTIC SORT
 
-score1 = (PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
-score2 = extract_original_score(lines)
-stats_compare_nutriscores(score1,score2)
+"""for threshold in [0.5,0.6,0.7]:
+    score1 = (PessimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold))
+    score2 = extract_original_score(lines)
+    stats_compare_nutriscores(score1,score2)
+    score3 = OptimisticmajoritySorting(data,criteria,weights,limiting_profiles,threshold)
+    stats_compare_nutriscores(score1,score3)
 
-compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
+compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)"""
