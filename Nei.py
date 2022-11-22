@@ -1,28 +1,25 @@
 from nutriscore_points import *
 
 
-def Nei(food_item, food_dataset):
-    food_item_data = food_dataset[food_dataset["name"] == food_item]
-
-    negative = (10-energy_points(food_item, food_dataset)) + \
-        (10-salt_points(food_item, food_dataset))
-    positive = (fruit_veg_points(food_item, food_dataset))*2
+def Nei(row):
+    negative = (10-energy_points(row["Energy"])) + (10-salt_points(row["Salt"]))
+    positive = (fruit_veg_points(row["Fruit/vegetable"]))*2
     Nei = negative+1/2*positive
     return (Nei)
 
 
-def score_Nei(food_item, food_dataset):
-    return (20 - Nei(food_item, food_dataset))
+def score_Nei(row):
+    return (20 - Nei(row))
 
 
-def a_e_score_Nei(food_item, food_dataset):
-    if score_Nei(food_item, food_dataset) < 0:
+def a_e_score_Nei(row,dataset):
+    if row ["Nei"] < dataset["Nei"].quantile(0.2):
         return ("a")
-    if score_Nei(food_item, food_dataset) < 3:
+    if row ["Nei"] < dataset["Nei"].quantile(0.4):
         return ("b")
-    if score_Nei(food_item, food_dataset) < 8:
+    if row ["Nei"] < dataset["Nei"].quantile(0.6):
         return ("c")
-    if score_Nei(food_item, food_dataset) < 13:
+    if row ["Nei"] < dataset["Nei"].quantile(0.8):
         return ("d")
-    if score_Nei(food_item, food_dataset) >= 13:
+    if row ["Nei"] >= dataset["Nei"].quantile(0.8):
         return ("e")

@@ -1,156 +1,139 @@
-def sugar_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Sugars"].item()
-    if dataset_fooditem <= 4.5:
+def sugar_points(sugar_value):
+    if sugar_value <= 4.5:
         return (0)
-    if dataset_fooditem <= 9:
+    if sugar_value <= 9:
         return (1)
-    if dataset_fooditem <= 13.5:
+    if sugar_value <= 13.5:
         return (2)
-    if dataset_fooditem <= 18:
+    if sugar_value <= 18:
         return (3)
-    if dataset_fooditem <= 22.5:
+    if sugar_value <= 22.5:
         return (4)
-    if dataset_fooditem <= 27:
+    if sugar_value <= 27:
         return (5)
-    if dataset_fooditem <= 31:
+    if sugar_value <= 31:
         return (6)
-    if dataset_fooditem <= 36:
+    if sugar_value <= 36:
         return (7)
-    if dataset_fooditem <= 40:
+    if sugar_value <= 40:
         return (8)
-    if dataset_fooditem <= 45:
+    if sugar_value <= 45:
         return (9)
-    if dataset_fooditem > 45:
+    if sugar_value > 45:
         return (10)
 
 
-def energy_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Energy"].item()
-
-    if dataset_fooditem <= 335:
+def energy_points(energy_value):
+    if energy_value <= 335:
         return (0)
-    if dataset_fooditem <= 670:
+    if energy_value <= 670:
         return (1)
-    if dataset_fooditem <= 1005:
+    if energy_value <= 1005:
         return (2)
-    if dataset_fooditem <= 1340:
+    if energy_value <= 1340:
         return (3)
-    if dataset_fooditem <= 1675:
+    if energy_value <= 1675:
         return (4)
-    if dataset_fooditem <= 2010:
+    if energy_value <= 2010:
         return (5)
-    if dataset_fooditem <= 2345:
+    if energy_value <= 2345:
         return (6)
-    if dataset_fooditem <= 2680:
+    if energy_value <= 2680:
         return (7)
-    if dataset_fooditem <= 3015:
+    if energy_value <= 3015:
         return (8)
-    if dataset_fooditem <= 3350:
+    if energy_value <= 3350:
         return (9)
-    if dataset_fooditem > 3350:
+    if energy_value > 3350:
         return (10)
 
 
-def saturated_fat_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Saturated fatty acids"].item()
-    if dataset_fooditem <= 1:
+def saturated_fat_points(saturated_fat_value):
+    if saturated_fat_value <= 1:
         return (0)
-    if dataset_fooditem <= 2:
+    if saturated_fat_value <= 2:
         return (1)
-    if dataset_fooditem <= 3:
+    if saturated_fat_value <= 3:
         return (2)
-    if dataset_fooditem <= 4:
+    if saturated_fat_value <= 4:
         return (3)
-    if dataset_fooditem <= 5:
+    if saturated_fat_value <= 5:
         return (4)
-    if dataset_fooditem <= 6:
+    if saturated_fat_value <= 6:
         return (5)
-    if dataset_fooditem <= 7:
+    if saturated_fat_value <= 7:
         return (6)
-    if dataset_fooditem <= 8:
+    if saturated_fat_value <= 8:
         return (7)
-    if dataset_fooditem <= 9:
+    if saturated_fat_value <= 9:
         return (8)
-    if dataset_fooditem <= 10:
+    if saturated_fat_value <= 10:
         return (9)
-    if dataset_fooditem > 10:
+    if saturated_fat_value > 10:
         return (10)
 
 
-def salt_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Salt"].item()
-    if dataset_fooditem <= 0.09:
+def salt_points(salt_value):
+    if salt_value <= 0.09:
         return (0)
-    if dataset_fooditem <= 0.18:
+    if salt_value <= 0.18:
         return (1)
-    if dataset_fooditem <= 0.27:
+    if salt_value <= 0.27:
         return (2)
-    if dataset_fooditem <= 0.36:
+    if salt_value <= 0.36:
         return (3)
-    if dataset_fooditem <= 0.45:
+    if salt_value <= 0.45:
         return (4)
-    if dataset_fooditem <= 0.54:
+    if salt_value <= 0.54:
         return (5)
-    if dataset_fooditem <= 0.63:
+    if salt_value <= 0.63:
         return (6)
-    if dataset_fooditem <= 0.72:
+    if salt_value <= 0.72:
         return (7)
-    if dataset_fooditem <= 0.81:
+    if salt_value <= 0.81:
         return (8)
-    if dataset_fooditem <= 0.9:
+    if salt_value <= 0.9:
         return (9)
-    if dataset_fooditem > 0.9:
+    if salt_value > 0.9:
         return (10)
 
 
-def fruit_veg_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Fruit/vegetable"].item()
-    if dataset_fooditem <= 40:
+def fruit_veg_points(fruit_veg_value):
+    if fruit_veg_value <= 40:
         return (0)
-    if dataset_fooditem <= 60:
+    if fruit_veg_value <= 60:
         return (1)
-    if dataset_fooditem <= 80:
+    if fruit_veg_value <= 80:
         return (2)
-    if dataset_fooditem < 80:
+    if fruit_veg_value >= 80:
         return (5)
 
 
-def protein_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Proteins"].item()
-
-    if dataset_fooditem <= 1.6:
+def protein_points(protein_value):
+    if protein_value <= 1.6:
         return (0)
-    if dataset_fooditem <= 3.2:
+    if protein_value <= 3.2:
         return (1)
-    if dataset_fooditem <= 4.8:
+    if protein_value <= 4.8:
         return (2)
-    if dataset_fooditem <= 6.4:
+    if protein_value <= 6.4:
         return (3)
-    if dataset_fooditem <= 8:
+    if protein_value <= 8:
         return (4)
-    if dataset_fooditem > 8:
+    if protein_value > 8:
         return (5)
 
 
-def fiber_points(food_item, food_dataset):
-    dataset_fooditem = food_dataset[food_dataset["name"]
-                                    == food_item]["Fiber"].item()
-
-    if dataset_fooditem <= 0.9:
+def fiber_points(fiber_value):
+    if fiber_value <= 0.9:
         return (0)
-    if dataset_fooditem <= 1.9:
+    if fiber_value <= 1.9:
         return (1)
-    if dataset_fooditem <= 2.8:
+    if fiber_value <= 2.8:
         return (2)
-    if dataset_fooditem <= 3.7:
+    if fiber_value <= 3.7:
         return (3)
-    if dataset_fooditem <= 4.7:
+    if fiber_value <= 4.7:
         return (4)
-    if dataset_fooditem > 4.7:
+    if fiber_value > 4.7:
         return (5)

@@ -1,29 +1,26 @@
 from nutriscore_points import *
 
 
-def Neo(food_item, food_dataset):
-    food_item_data = food_dataset[food_dataset["name"] == food_item]
-
-    negative = (10-sugar_points(food_item, food_dataset))+(10-saturated_fat_points(
-        food_item, food_dataset))+(10-salt_points(food_item, food_dataset))
-    positive = (protein_points(food_item, food_dataset)+fruit_veg_points(
-        food_item, food_dataset)+fiber_points(food_item, food_dataset))*2
+def Neo(row):
+    negative = (10-sugar_points(row["Sugars"]))+(10-saturated_fat_points(row["Saturated_fatty_acids"]))+(10-salt_points(row["Salt"]))
+    positive = (protein_points(row["Proteins"])+fruit_veg_points(
+        row["Fruit/vegetable"])+fiber_points(row["Fiber"]))*2
     Neo = negative+1/2*positive
     return (Neo)
 
 
-def score_Neo(food_item, food_dataset):
-    return (30 - Neo(food_item, food_dataset))
+def score_Neo(row):
+    return (30 - Neo(row))
 
 
-def a_e_score_Neo(food_item, food_dataset):
-    if score_Neo(food_item, food_dataset) < 0:
+def a_e_score_Neo(row,dataset):
+    if score_Neo(row) < dataset["Neo"].quantile(0.2):
         return ("a")
-    if score_Neo(food_item, food_dataset) < 3:
+    if score_Neo(row) < dataset["Neo"].quantile(0.4):
         return ("b")
-    if score_Neo(food_item, food_dataset) < 11:
+    if score_Neo(row) < dataset["Neo"].quantile(0.6):
         return ("c")
-    if score_Neo(food_item, food_dataset) < 19:
+    if score_Neo(row) < dataset["Neo"].quantile(0.8):
         return ("d")
-    if score_Neo(food_item, food_dataset) >= 19:
+    if score_Neo(row) >= dataset["Neo"].quantile(0.8):
         return ("e")
