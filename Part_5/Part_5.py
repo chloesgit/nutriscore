@@ -4,7 +4,7 @@ import numpy as np
 
 ### IMPORT DATASET
 
-lines = pd.read_excel("food_dataset.xlsx")
+lines = pd.read_csv("Part_6/final_dataset.csv")
 
 ### DEFINE PARAMETERS
 
@@ -12,12 +12,13 @@ lines = pd.read_excel("food_dataset.xlsx")
 criteria = [
     'Energy',#'energy-kcal_value',
     'Sugars',#'sugars_value',
-    'Saturated fatty acids',#'saturated-fat_value',
+    'Saturated_fatty_acids',#'saturated-fat_value',
     'Salt',#'salt_value',
     'Proteins',#'proteins_value',
     'Fiber',#'fiber_value',
     'Fruit/vegetable'#'Fruit/Vegetable, %'
 ]
+#code,name,quantity,brands,Energy,Saturated_fatty_acids,Sugars,Fiber,Proteins,Salt,Fruit/vegetable,Nutriscore,Nutriscore_point
 
 # 2 sets of weights
 weights1 = [2,2,2,2,1,1,1]
@@ -226,11 +227,11 @@ def stats_compare_nutriscores(score1,score2):
 
 ### COMPARE ORIGINAL SORT AND PESSIMISTIC SORT
 
-for threshold in [0.5,0.6,0.7]:
+"""for threshold in [0.5,0.6,0.7]:
     score1 = (PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold))
     score2 = extract_original_score(lines)
     stats_compare_nutriscores(score1,score2)
     score3 = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     stats_compare_nutriscores(score1,score3)
-
+"""
 compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
