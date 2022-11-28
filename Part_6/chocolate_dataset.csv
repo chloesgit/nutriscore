@@ -1,0 +1,640 @@
+code,name,quantity,brands,Energy,Saturated_fatty_acids,Sugars,Fiber,Proteins,Salt,Fruit/vegetable,Nutriscore,Nutriscore_point
+1.3305116E7,crosti pétales choc',425.0,j.Favrichon,115.0,0.6,7.8,2.4,3.0,0.11,0.0,a,-1.0
+1.3474393E7,Biscottes d'épeautre à la châtaigne,150,moulin des moines,354.0,0.15,4.45,3.03,14.41,1.11,0.0,b,0.0
+1.7407496E7,KLASIK,570,U,582.0,6.4,44.0,3.8,6.7,0.09,13.0,d,18.0
+1.7461221E7,la mini tartelette,225,p'déli,500.0,12.0,34.0,2.0,7.0,1.5,0.0,e,27.0
+1.7894722E7,pains au chocolat,360,U,183.0,5.9,5.9,1.2,3.0,0.41,0.0,e,19.0
+1.9365664E7,Petit pot de crème chocolats,200,bio Village,184.0,6.2,15.0,0.0,5.6,0.12,0.0,d,11.0
+1.9721945E7,Granola chocolat coco et éclats de frambroise,375,celnat,429.0,6.2,12.6,7.2,13.3,0.15,8.0,c,8.0
+2.000000044992E12,Les P’tits Dodus chocolat noir,250,Sémilia,444.0,9.4,27.9,3.5,5.6,0.01,0.0,d,17.0
+2.000000044993E12,Les P'tits Dodus Chocolat au Lait,250,Sémilia,469.0,12.2,26.1,1.2,6.5,0.01,0.0,e,19.0
+2.000000077592E12,RXBAR CHOCOLATE SEA SALT,52,RXBAR,210.0,2.0,13.0,5.0,12.0,0.6604,12.5,d,13.0
+2.000000077804E12,BANANITO CHOCOLATE ALMOND,25,Mightee bee,86.0,1.2,12.8,1.9,0.7,0.0,80.0,d,13.0
+2.000000144343E12,Muesli croustillant Chocolat Framboise,375,Markal,430.0,3.8,20.0,8.0,9.6,0.02,2.0,c,7.0
+2.0001216E7,Pétales de blé goût chocolat,750,Crownfield,380.0,1.0,28.8,5.0,8.8,0.6858,0.0,c,8.0
+2.0008574E7,Micellar Soap Bar,500,Crownfield,248.0,1.4,3.9,6.7,0.48,2.5,0.0,c,9.0
+2.0010373E7,Boules céréales au chocolat,750,Crownfield,388.0,1.2,29.4,6.9,7.0,0.6604,0.5,c,8.0
+2.008396E7,choco moons,500,crownfield,378.0,1.1,24.5,7.3,10.0,0.48,0.0,c,7.0
+2.01E7,choco moons,500.0,crownfield,378.0,1.1,24.5,7.3,10.0,0.48,0.0,c,7.0
+2.0206093E7,Riz Soufflé Chocolat Noir Bio,100,"Bio Sonne,Norma",480.0,13.5,21.5,6.0,6.9,0.02,0.0,d,14.0
+2.0258800656E11,Moelleux au Chocolat,200,U,437.0,14.0,33.0,2.5,6.3,0.09,0.0,e,20.0
+2.0E12,Muesli croustillant Chocolat Framboise,375.0,Markal,430.0,3.8,20.0,8.0,9.6,0.02,2.0,c,7.0
+2.0E7,Micellar Soap Bar,500.0,Crownfield,248.0,1.4,3.9,6.7,0.48,2.5,0.0,c,9.0
+2.1908509365E10,Chocola,200,Larabar,422.0,4.44,44.44,8.9,8.89,167.5,0.0,d,13.0
+2.4062299E7,Dark chocolate,150,GutBio,490.0,15.0,24.0,0.0,6.6,0.01,0.0,e,21.0
+2.6049748E7,Crème dessert au chocolat,380,Simplement bon et bio,152.0,3.2,20.0,0.0,4.2,0.1,0.0,c,6.0
+2.6077345E7,Müesli fruits rouge,500,Bon Et Bio,374.0,4.3,20.0,0.0,8.9,0.05,0.0,d,12.0
+2.70092000116E12,Rooibos du Hamman,116,Rooibos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,b,0.0
+2.7038284E7,Crunchy Muesli Berries,400,Golden Bridge,436.0,4.0,17.0,8.5,8.3,0.0,0.0,c,6.0
+2.730384003486E12,Purée de noisette grillé et chocolat,200,Satoriz,660.0,10.1,15.6,9.0,12.0,0.03,80.0,d,14.0
+2.7E7,Crunchy Muesli Berries,400.0,Golden Bridge,436.0,4.0,17.0,8.5,8.3,0.0,0.0,c,6.0
+2.8000033279E10,Dark chocolate chips,200,Nestlé,571.4285714,21.42857143,42.85714286,7.142857143,7.142857143,0.0,0.0,e,21.0
+2.8000394257E10,Nestle Toll House Dark Chocolate Morsels 53% Cacao,200,Nestlé,571.0,21.43,42.86,7.1,7.14,0.0,0.0,e,21.0
+2194110.0,cereales petit dejeuner,500,Joseph Favrichon,475.0,7.0,18.0,8.0,8.0,0.0,0.0,c,9.0
+3.02329001408E12,Yaos Yaourt à la Grecque Stracciatella 4x125g,500,Nestle,148.0,5.4,14.6,0.0,2.6,0.1,0.0,c,8.0
+3.02E12,Yaos Yaourt à la Grecque Stracciatella 4x125g,500.0,Nestle,148.0,5.4,14.6,0.0,2.6,0.1,0.0,c,8.0
+3.050003109009E12,Petales de Cereales Bio,350,DIET PLUS,413.0,5.8,11.0,6.3,9.0,0.06,0.0,c,7.0
+3.0523510595E12,La bonne  barre,1.0,Hubert,233.0,1.5,22.86,4.81,5.77,0.03,0.0,b,0.0
+3.111900330009E12,Crosti,425.0,"Joseph Favrichon,Favrichon",388.0,2.4,18.0,9.0,11.0,0.2,0.0,a,-1.0
+3.111900330023E12,Crosti Riz soufflé choco,425,Joseph Favrichon,396.0,2.5,13.0,3.5,7.2,0.01,0.0,b,1.0
+3.111900330061E12,Crosti boules choco,400,"Joseph Favrichon,j.favrichon",390.0,2.1,16.0,38.0,6.4,0.18,0.0,c,6.0
+3.111900350595E12,Flakes 3 Chocolats,400,Joseph Favrichon,410.0,3.6,22.0,3.3,7.3,0.26,0.0,c,10.0
+3.1594700007E12,Coco Pops - Chocos,375,"Kellogg's,Coco Pops",381.0,1.0,29.0,5.0,9.0,0.775,0.0,c,8.0
+3.168390008932E12,Choccocino,200,Dolce Gusto,448.0,9.7,54.8,1.5,14.6,0.3,0.0,e,24.0
+3.175681047044E12,Céréales croustillantes amaranthe chocolat,375,Céréal bio,464.0,5.7,22.0,7.9,8.4,0.31,0.0,c,10.0
+3.175681231313E12,Croustillant sésame chocolat bio,132.0,Gerblé,538.0,11.0,29.0,4.9,11.0,0.0,0.0,d,17.0
+3.178530411317E12,Chocolat blanc caramel,200,Bovetti,565.0,22.0,52.0,0.0,5.6,0.29,0.0,e,28.0
+3.178530413038E12,Gaufres aux Pépites de Chocolat,300.0,Bonne Maman,455.0,18.0,19.0,0.0,6.2,1.1,0.0,e,23.0
+3.17853042203E12,Petite tartelette au chocolat,200,Bonne Maman,500.0,11.0,36.0,2.3,7.2,0.45,0.0,e,22.0
+3.179142725007E12,Sundae chocolat,350,Vahiné,321.0,0.7,54.0,0.0,1.1,0.02,0.0,d,14.0
+3.184340930702E12,Choc'croc Classic,100.0,Pural,515.0,15.0,27.0,2.8,7.9,0.79,0.0,e,22.0
+3.184670001547E12,Le fondant au chocolat noir,220,Rians,218.0,8.0,17.0,0.0,4.5,0.1,0.0,d,12.0
+3.222475413391E12,Pétales choco craquants,375.0,"Les Doodingues, DooDingues",379.0,1.7,25.0,7.9,9.7,0.19,0.0,b,0.0
+3.222475485664E12,Galettes de riz nappées de chocolat noir,100,Casino,495.0,14.0,21.0,6.6,7.5,0.02,0.0,d,15.0
+3.222475820908E12,Bâtonnets chocolat au lait,100.0,"Casino Bio,Casino",568.0,24.0,45.0,0.0,8.3,0.25,0.0,e,27.0
+3.22247598233E12,Galettes de riz nappées de chocolat noir,100,Casino,495.0,14.0,21.0,6.6,7.5,0.02,0.0,d,15.0
+3.22247598288E12,Galettes de riz nappées de chocolat au lait,100,Casino,513.0,15.0,29.0,3.9,7.1,0.1,0.0,d,18.0
+3.22247598329E12,Galettes de maïs au chocolat noir bio,100,"Casino, Casino Bio",487.0,13.0,20.0,9.3,7.0,0.0,0.0,d,15.0
+3.222476416643E12,Crème dessert chocolat au lait de brebis,200,"Casino Bio,Casino",162.0,4.7,13.0,1.6,5.7,0.11,0.0,c,4.0
+3.222476755865E12,Hey coco! Onctueux coco Dessert au chocolat.,240,Casino,246.0,14.0,13.0,3.1,2.7,0.02,78.0,d,12.0
+3.222476861528E12,Petits pots de crème au chocolat BIO,200,"Casino Bio,Casino",171.0,5.7,15.0,1.6,5.2,0.11,0.0,c,6.0
+3.222476990136E12,Mini galettes de riz nappées de chocolat noir Bio,60,"Casino Bio, Casino",473.0,12.0,20.0,6.8,7.7,0.0,0.0,d,14.0
+3.222476990143E12,Mini galettes de riz nappées de chocolat au lait Bio,60,"Casino Bio, Casino",485.0,12.0,25.0,3.0,7.5,0.08,0.0,d,18.0
+3.222477420366E12,Petales choco,500.0,Casino,374.0,1.0,19.0,9.8,11.0,0.2,0.0,a,-2.0
+3.222477445918E12,"Barres de céréales abricot, chocolat noir, amande.",120.0,Casino Bio,368.0,3.5,28.0,12.0,6.2,0.16,40.5,c,7.0
+3.228857001132E12,Doo Wap pépites choco sans additif,320.0,Harrys,340.0,3.5,18.0,4.4,8.0,0.75,0.0,c,9.0
+3.228857001149E12,Doo Wap pépites choco sans additif,480.0,Harrys,340.0,3.5,18.0,4.4,8.0,0.75,0.0,c,9.0
+3.228857001156E12,DooWap pépites chocolait ss additif,320.0,"Harrys,Barilla",340.0,3.9,16.4,3.9,8.3,0.75,0.0,c,9.0
+3.228857001163E12,DooWap pépites chocolait ss additif,480.0,Harrys,340.0,3.9,16.4,3.9,8.3,0.75,0.0,c,9.0
+3.228857001309E12,Harrys brioche tressee aux pepites de chocolat sans additifs 500g,500.0,Harrys,366.0,2.5,14.0,5.0,7.5,0.75,0.0,c,7.0
+3.228857001347E12,Brioche tranchée aux pépites de chocolat,485.0,Harrys,357.0,2.7,16.6,5.2,7.0,0.65,0.0,c,6.0
+3.228857001934E12,Brioche tranchée harrys au chocolat et à la noix de coco,450.0,Harrys,348.0,4.3,14.0,7.0,9.2,0.9,9.7,c,9.0
+3.229820100241E12,Galettes de riz chocolat noir coco bio,90,Bjorg,505.0,16.0,24.0,6.3,7.5,0.05,6.0,d,16.0
+3.229820160672E12,Croustillant Chocolat,500,Bjorg,461.0,4.3,15.0,8.2,10.0,0.03,0.0,c,7.0
+3.22982076461E12,Galettes de riz - Chocolat noir Coco,90,Bjorg,504.0,16.0,24.0,6.3,7.5,0.1,6.0,d,16.0
+3.229820786605E12,Crousti avoine chocolat,500,Bjorg,434.0,4.3,15.0,9.8,9.3,0.07,0.0,c,7.0
+3.229820788067E12,Galettes de Riz Chocolat au Lait,90,Bjorg,493.0,14.0,27.0,3.5,7.8,0.09,0.0,d,18.0
+3.229820789163E12,Galettes de riz chocolat noir,100,Bjorg,478.0,14.0,22.0,5.8,6.8,0.02,0.0,d,14.0
+3.229820791807E12,Dessert amande chocolat,534.0,Bjorg,80.0,0.5,11.0,1.1,1.3,0.05,3.0,b,1.0
+3.229820792224E12,2 Galettes De Riz Au Chocolat Noir Bio,"22,5",Bjorg,494.0,14.0,27.0,4.9,7.199999809,0.0,0.0,d,16.0
+3.229820793665E12,Soja chocolat,1000.0,Bjorg,72.0,0.6,7.0,0.9,3.8,0.09,0.0,a,-1.0
+3.229820794181E12,Boisson soja chocolat BIO les 2 briques de 1 l,200.0,Bjorg,80.0,0.8,8.0,0.9,4.0,0.125,0.0,a,-1.0
+3.229820797908E12,Granola chocolat coco,200,Bjorg,438.0,5.0,14.0,11.0,11.0,0.0,0.0,c,7.0
+3.22982079811E12,Granola Chocolat,350.0,bjorg,420.0,3.1,12.0,8.9,10.0,0.01,0.0,b,0.0
+3.229820801056E12,,450,Bjorg,426.0,4.0,14.0,9.6,9.6,0.07,0.0,c,6.0
+3.22E12,"Barres de céréales abricot, chocolat noir, amande.",120.0,Casino Bio,368.0,3.5,28.0,12.0,6.2,0.16,35.7,c,7.0
+3.23E12,Doo Wap pépites choco sans additif,320.0,Harrys,340.0,3.5,18.0,4.4,8.0,0.75,0.0,c,9.0
+3.245412997952E12,Galettes de riz nappées chocolat noir,100,"Carrefour, Carrefour Bio",479.0,14.0,22.0,6.3,6.8,0.0,0.0,d,14.0
+3.250391282869E12,Toasts riz au chocolat noir BIO,100,Regain,511.0,15.0,29.1,3.9,7.1,0.09,0.0,d,18.0
+3.250391460274E12,Céréales crispy choc chocolaté,375,Chabrior,391.0,1.2,28.5,3.5,6.6,0.42,0.0,c,9.0
+3.250391650743E12,Céréales Soufflées au Chocolat,375,Netto,387.0,1.4,28.0,4.9,7.1,0.39,0.0,c,7.0
+3.250391774029E12,Muesli croustillant au chocolat,500,Chabrior,461.0,6.3,21.1,8.5,8.4,0.01,0.0,c,10.0
+3.25039205751E12,Galettes maïs au chocolat noir BIO,100,Regain,497.0,14.0,25.0,5.2,7.3,0.01,0.0,d,16.0
+3.250392129811E12,Riz soufflé chocolaté,500,Netto,392.0,1.4,28.6,3.1,6.6,0.4,0.0,c,9.0
+3.250392488598E12,Toasts de riz chocolat au lait bio,100.0,Regain,511.0,15.0,29.1,3.9,7.1,0.09,0.0,d,18.0
+3.250392493769E12,L'essentiel - céréales billes chocolatées,375,"Chabrior,Intermarché",385.0,1.3,24.3,2.2,8.6,0.06,0.0,c,3.0
+3.250392550707E12,Petits pots de crème au chocolat,200,Pâturages,176.0,5.7,15.0,2.8,5.4,0.12,0.0,c,5.0
+3.250392551339E12,Mousse au chocolat noir,280,Pâturages,322.0,12.7,23.8,4.7,8.6,0.19,0.0,d,15.0
+3.250392614959E12,Céréales fourrées chocolat noisette bio,375,chabrior,434.0,2.6,28.5,7.8,9.9,0.34,0.0,c,9.0
+3.251514251007E12,Fondant au chocolat,470.0,"Marie,Boncolac",390.0,13.0,33.0,3.2,6.4,0.1,0.0,d,18.0
+3.251516307009E12,Tartelettes Chocolat Framboise,200,U,422.0,13.0,29.0,3.0,5.9,0.08,0.0,d,18.0
+3.252920033508E12,Lait Chocolaté bio et équitable,20.0,Grandeur nature,65.0,0.76,10.4,0.0,3.43,0.08,0.0,b,0.0
+3.252920038411E12,Cœur fondant au chocolat,180.0,Grandeur Nature,364.0,13.6,22.9,2.9,6.4,0.11,0.0,d,16.0
+3.25292003947E12,Mousse au chocolat noir,350,grandeur nature,348.0,15.1,18.0,1.0,8.0,0.31,0.0,d,17.0
+3.254560018037E12,Cao Flakes au chocolat,375,"Rik & Rok,Auchan",380.0,1.0,26.0,6.5,9.0,0.5,0.0,c,6.0
+3.254560609907E12,ChocoCrack,375,Auchan,384.0,1.0,30.0,2.9,6.5,0.45,0.0,c,8.0
+3.255650080194E12,Tassiopée,96.0,Tassiopée,471.0,11.3,31.2,5.9,8.3,0.04,0.0,d,17.0
+3.256220368315E12,lune de céréales au chocolat,375,"U bio,U",389.0,1.4,32.0,3.5,7.0,0.33,0.0,c,10.0
+3.256221136272E12,Galette de riz au chocolat noir,100,"U Bio, U",502.0,14.9,23.9,6.0,6.6,0.01,0.0,d,16.0
+3.256222969336E12,Boules enrobées saveur chocolat,375,"U Bio,U",326.0,0.5,24.0,2.5,6.8,0.29,0.0,c,4.0
+3.256222988245E12,Galette de riz nappée de chocolat au lait,100,"U Bio, U",492.0,14.3,27.5,2.4,7.0,0.1,0.0,e,20.0
+3.256224070184E12,Mini galette de riz nappée de chocolat noir,60,"U Bio, U",492.0,13.8,21.7,6.2,7.4,0.03,0.0,d,15.0
+3.256225042418E12,Boules de céréales goût chocolat,375,"U Mat & Lou,U",379.0,1.2,24.0,8.9,9.9,0.43,0.0,c,6.0
+3.256225432875E12,Petits pots de crème cuit au four au chocolat issus de l'agriculture biologique,200,"U Bio, U",196.0,6.1,15.0,1.5,5.6,0.12,0.0,c,10.0
+3.256226156046E12,Bâtonnets au chocolat au lait,125.0,"U Bio,U",527.0,15.0,34.0,2.8,6.6,0.4,0.0,e,22.0
+3.256226387655E12,Mini galette de riz nappée de chocolat au lait,60,"U Bio,U",483.0,13.0,24.0,2.7,7.2,0.1,0.0,e,19.0
+3.256226387662E12,Galette de mais nappée de chocolat noir,100,"U Bio,U",479.0,14.0,22.0,7.1,7.4,0.01,0.0,d,14.0
+3.256226763848E12,Pétales de blé chocolat,375,"U Bio, U",364.0,1.7,20.0,8.7,9.8,0.42,0.0,b,0.0
+3.256227109393E12,Crème dessert au chocolat,380,"U, U Bio",152.0,3.2,20.0,1.0,4.2,0.1,0.0,c,5.0
+3.256227454066E12,Fritures chocolat au lait bio,200,U,573.0,23.0,49.0,1.8,6.7,0.21,0.0,e,26.0
+3.25622745408E12,Lapin chocolat,200,U Bio,573.0,23.0,49.0,1.7,6.7,0.21,0.0,e,26.0
+3.256227742842E12,Truffes 89% chocolat noir pur beurre cacao BIO,180.0,"U Bio,U",587.0,27.0,38.0,6.7,5.0,0.01,0.0,e,20.0
+3.256227742873E12,Assortiment de chocolat,180.0,"U, U Bio",556.0,18.0,38.0,4.2,8.0,0.18,13.0,e,20.0
+3.256227751783E12,Crème dessert au chocolat au lait de brebis,200,"U, U Bio",156.0,4.5,13.0,1.9,5.4,0.1,0.0,c,3.0
+3.256227763373E12,Mousse au Chocolat Noir,140,"super u, U Bio, U",320.0,13.0,21.0,3.0,6.9,0.16,0.0,d,14.0
+3.25622868651E12,Boules Enrobés Chocolat,375.0,"U,U Bio",374.0,0.8,18.0,3.0,6.9,0.01,0.0,b,0.0
+3.256228686534E12,Céréales pétales de blé au chocolat,375.0,"U,U Bio",394.0,2.1,19.0,11.0,9.2,0.01,0.0,b,0.0
+3.257984018461E12,Galettes de riz chocolat noir,100,Nature Bio,483.0,14.0,22.0,6.3,6.8,0.02,0.0,d,15.0
+3.257984550572E12,Pétales chocolat,375,Cora,393.0,1.5,29.0,6.9,9.3,0.26,0.0,c,7.0
+3.257985566817E12,Riz soufflé chocolat,375,Cora,390.0,1.2,31.0,3.9,7.4,0.34,0.0,c,8.0
+3.25826003412E12,Super mini lait amande chocolat & super aliments,200.0,Biodyne,49.0,0.27,3.52,0.9,1.7,0.005,0.0,a,-1.0
+3.25856104024E12,Céréales soufflées,375,Belle France,391.0,1.2,28.5,3.5,6.6,0.42,0.0,c,9.0
+3.258561260242E12,Galettes de riz chocolat noir,200,U,493.0,14.2,27.2,4.9,7.2,0.5,0.0,e,19.0
+3.258590000871E12,Pâte à tartiner - NOISETTE CHOCOLAT 100% vegetal,350,Dardenne,535.0,6.0,35.6,8.2,11.6,0.0,0.0,d,13.0
+3.259011209743E12,Croquant sésame chocolat orange,200,VALPI BIO,531.0,8.3,31.0,4.7,11.0,0.0,0.0,d,16.0
+3.263850576096E12,Brownie aux éclats de noisettes,285,Franprix,501.0,18.0,31.0,5.0,7.7,0.33,0.0,d,18.0
+3.263851322418E12,Riz soufflé goût chocolat,750,sans,383.0,1.0,29.0,2.9,6.8,0.79,0.0,c,10.0
+3.263851325211E12,Wheat choco,400,Leaderprice,390.0,1.7,30.0,6.2,9.0,0.2,0.0,c,6.0
+3.26385132531E12,Céréales croustillantes au chocolat,400,Leader Price,394.0,1.4,30.0,6.5,7.5,0.37,0.0,c,7.0
+3.263852557413E12,Galette de riz chocolat noir,100,Leader Price,479.0,14.0,21.6,6.3,6.8,0.0,0.0,d,14.0
+3.263852558519E12,Mini galettes de riz,60,leader price,473.0,12.0,20.0,6.8,7.7,0.0,0.0,d,14.0
+3.26385274651E12,Les biscuits bio,200,FRANPRIX,504.0,11.0,29.0,4.9,8.7,0.6,0.0,e,19.0
+3.263858827213E12,Fondant au chocolat,180.0,Franprix,361.0,13.0,24.0,2.2,6.6,0.12,0.0,d,17.0
+3.266191002224E12,Galettes fines mais et riz au chocolat au lait,90,La Vie Claire,487.0,14.7,28.3,1.6,6.8,0.12,0.0,e,21.0
+3.266191006505E12,Barres croustillantes tout chocolat,125.0,La Vie Claire,426.0,9.4,34.0,12.0,6.5,0.01,0.0,d,16.0
+3.266191008363E12,Galettes de Riz au chocolat noir,90,La Vie Claire,493.0,14.0,27.0,5.0,7.2,0.0,0.0,d,16.0
+3.26619100837E12,Galettes de riz au chocolat au lait,90,La Vie Claire,497.0,14.0,27.0,3.5,7.8,0.1,0.0,d,18.0
+3.266191008431E12,Galettes de Riz au Chocolat Noir et Orange,90,La Vie Claire,484.0,15.0,24.0,6.0,6.1,0.0,0.0,d,16.0
+3.266191008981E12,Florentins,100.0,La Vie Claire,513.0,14.4,47.8,4.0,6.5,0.04,16.0,e,22.0
+3.266191056821E12,Dessert au soja chocolat,530,La Vie Claire,103.0,0.5,13.0,1.1,3.5,0.15,0.0,b,0.0
+3.266191067896E12,Paillettes au chocolat noir,200,La Vie Claire,503.0,12.8,60.3,0.0,5.7,0.1,0.0,e,26.0
+3.266191081007E12,Coussins à la pâte à tartiner,375,La Vie Claire,422.0,2.8,26.0,6.9,8.9,0.7,0.0,c,10.0
+3.266191081038E12,Petales au chocolat noir,375,La Vie Claire,411.0,4.4,12.0,12.0,11.0,0.02,0.0,c,6.0
+3.266191081076E12,Céréales fourrées au Cacao et aux Noisettes,375,La Vie Claire,452.0,9.6,22.0,3.2,6.6,0.7,0.0,d,18.0
+3.266191085722E12,Bâtonnets au chocolat au lait,125.0,La Vie Claire,528.0,15.0,36.0,2.5,6.5,0.36,0.0,e,22.0
+3.268350120213E12,Biscuits Twibio Double Chocolat Au Lait Bio & équitable,150.0,Le moulin du pivert,534.0,9.8,31.1,4.2,5.8,0.15,3.0,d,18.0
+3.26E12,Wheat choco,400.0,Leaderprice,390.0,1.7,30.0,6.2,9.0,0.2,0.0,c,6.0
+3.270160587551E12,Fondant au Chocolat,470.0,Picard,414.0,16.0,32.0,2.2,6.4,0.12,0.0,e,20.0
+3.270160820955E12,Brookie,80.0,Picard,394.0,4.8,22.0,5.9,7.0,0.3,0.0,c,8.0
+3.270160821181E12,Buche glacee,410.0,Picard,181.0,3.4,26.0,2.3,2.5,0.09,0.0,c,7.0
+3.270160853694E12,Petits sablés chocolat noir et sel de guérande,120.0,Picard,508.0,16.0,27.0,4.0,6.5,1.1,0.0,e,21.0
+3.273120024486E12,Crunchy chocolat noir,500,Celnat,469.0,6.1,21.0,9.3,9.5,0.2,0.0,c,10.0
+3.273120026367E12,Crunchy chocolat noir,3000,Celnat,469.0,6.1,21.0,9.3,9.5,0.2,0.0,c,10.0
+3.273120026961E12,CRUNCHY Chocolat Noisettes,375,Celnat,483.0,6.0,20.0,9.0,9.6,0.2,0.0,c,10.0
+3.273120027173E12,Muesli croustillant tout chocolat,375,Happy Bio,460.0,3.6,21.0,8.0,9.0,0.24,0.0,c,8.0
+3.273120028477E12,Crunchy chocolat noir,1000,Celnat,469.0,6.1,21.0,9.3,9.5,0.2,0.0,c,10.0
+3.278690085646E12,Emprésuré chocolat intense,500.0,Malo,123.0,1.3,18.0,0.0,7.1,0.29,0.0,b,2.0
+3.278690085684E12,Emprésuré au chocolat saveur noisette,500.0,Malo,123.0,1.3,18.0,0.0,7.1,0.29,0.0,b,2.0
+3.278692500215E12,Emprésuré chocolat bio,250.0,Malo,104.0,1.2,14.0,0.0,6.2,0.14,0.0,b,2.0
+3.278692500321E12,Mousse au chocolat noir,180,Malo,370.0,17.0,23.0,0.0,6.6,0.33,0.0,e,20.0
+3.278692500581E12,Emprésuré chocolat saveur Tonka,500.0,Malo,111.0,1.1,17.0,0.0,5.7,0.22,0.0,b,2.0
+3.278693504076E12,Emprésuré au chocolat,500.0,Malo,111.0,1.1,18.0,0.0,5.7,0.22,0.0,b,2.0
+3.278693604076E12,Emprésuré chocolat,125.0,MALO,115.0,1.1,18.0,0.0,5.7,0.22,0.0,b,2.0
+3.278699700007E12,Les miamandises chocolat,125,Les Miamandises,111.0,1.1,18.0,0.0,5.7,0.2,0.0,b,2.0
+3.278699700014E12,L'emprésuré Chocolat,500.0,LES MIAMANDISES,123.0,1.3,18.0,0.0,7.1,0.29,0.0,b,2.0
+3.278699700304E12,L'emprésuré chocolat saveur noisette,200,Les Miamandises,121.0,1.3,19.0,0.0,6.8,0.27,0.0,c,3.0
+3.27E12,Petales au chocolat noir,375.0,La Vie Claire,411.0,4.4,12.0,12.0,11.0,0.02,0.0,c,6.0
+3.284230010825E12,8 Briochettes aux Pépites de Chocolat au Lait Bio,320.0,La Boulangère,365.0,4.8,17.5,1.9,8.2,0.9906,0.0,d,14.0
+3.288131600208E12,Cool Barre,200,Vitabio,420.0,3.8,23.0,3.9,7.0,0.29,0.0,c,10.0
+3.288132600412E12,Cool Pétales Chocolat,450.0,Vitabio,387.0,1.6,21.0,7.6,9.7,0.18,0.0,a,-1.0
+3.297760084006E12,Dessert gourmand chocolat,220,Charles & Alice,159.0,6.5,17.0,1.2,1.5,0.02,0.0,c,8.0
+3.297760085003E12,Dessert Gourmand Végétal au Chocolat,2 x 110,Happy Coco!,177.0,8.5,17.0,1.2,1.6,0.01,0.0,d,11.0
+3.322680010542E12,Whaou Bio,6x32,Whaou!,464.0,3.7,36.0,2.6,7.1,0.85,0.0,d,16.0
+3.329483321035E12,Muesli Crousti. choc,200,Markal,449.0,5.0,20.2,6.5,9.5,0.02,0.0,c,8.0
+3.339523275006E12,Mousse Chocolat noir,180  (2 x 90),"Laiterie du Perigord, Laiterie du Périgord, Laiterie du Périgord",304.0,11.5,26.6,1.2,7.6,0.27,0.0,d,18.0
+3.347430009065E12,Rondelines d'épeautre au chocolat (200gr),200,Moulin des moines,403.0,6.5,9.79,8.26,11.42,0.029,0.0,c,8.0
+3.34743001933E12,Crunchy d'epeautre au chocolat,250,Moulin des moines,423.0,3.95,19.07,5.82,8.83,0.1,0.0,c,7.0
+3.347430021807E12,Galettes de riz nappées chocolat,150,Moulin des Moines,473.0,9.83,12.62,3.03,7.0,0.02,0.0,d,13.0
+3.347430021869E12,Galette d'épeautre nappé de chocolat,200,Moulin des Moines,440.0,9.85,12.62,7.83,11.16,0.01,0.0,d,11.0
+3.347430022446E12,Galette d'épeautre et riz nappées chocolat et sésame,150,Moulin des moines,448.0,10.08,12.35,3.97,7.26,0.02,0.0,d,13.0
+3.347431928358E12,Muesli aux pépites de chocolat,500.0,Moulin des moines,357.0,2.4,7.0,9.3,9.9,0.08,0.0,a,-3.0
+3.347439950313E12,Galettes d'epeautre chocolat,150.0,Moulin des Moines,440.0,9.85,12.62,7.83,11.16,0.01,0.0,d,11.0
+3.347439950412E12,Galettes de petit épeautre napées de chocolat,150,NATURALINE,436.0,9.83,13.92,5.11,10.25,0.01,0.0,d,12.0
+3.350031895135E12,Boîte de chocolat giandujas aux noisettes,170.0,"Monoprix Gourmet,Monoprix",586.0,16.0,44.0,2.3,8.2,0.15,0.0,e,24.0
+3.350031931512E12,Céréales soufflées au chocolat Bio,375.0,MONOPRIX BIO !,380.0,1.7,20.0,8.3,9.3,0.0762,0.0,a,-1.0
+3.350033138759E12,Pétales de blé au chocolat,375,Monoprix,390.0,1.7,30.0,6.2,9.0,0.23,0.0,c,7.0
+3.350033237933E12,Macaron aux amandes et chocolat sans gluten,120.0,MONOPRIX GOURMET,450.0,2.2,45.0,5.5,13.0,0.1,38.0,d,11.0
+3.350033293366E12,Galettes de riz nappées au chocolat noir,100,"Monoprix Bio,Monoprix",495.0,14.0,21.0,6.6,7.5,0.02,0.0,d,15.0
+3.350033528109E12,Bâtonnets,125.0,"Monoprix Bio,Monoprix",513.0,14.0,34.0,2.7,6.5,0.37,0.0,e,22.0
+3.350033531512E12,Eclats de chocolat noir,120.0,"Monoprix Gourmet,Monoprix",538.0,20.0,42.0,7.2,7.3,0.27,10.3,e,21.0
+3.350033531529E12,Pâte à tartiner - Chocolat au lait et noisettes,200,"Monoprix Gourmet,Monoprix",640.0,9.3,36.0,5.2,9.0,0.05,0.0,d,18.0
+3.350033663381E12,Muesli de cereales germees chocolat er amande,200,"Monoprix Bio,Monoprix",409.0,5.0,17.0,10.0,11.0,0.0,0.0,c,7.0
+3.350033706378E12,Brownie,285.0,"Monoprix Bio,Monoprix",473.0,7.5,36.0,3.4,5.8,0.25,15.0,d,17.0
+3.35003387154E12,Pâte à tartiner chocolat noir et noisettes,200,"Monoprix, Monoprix Gourmet",619.0,9.2,30.0,6.4,9.3,0.02,0.0,d,16.0
+3.35E12,Rondelines d'épeautre au chocolat (200gr),200.0,Moulin des moines,403.0,6.5,9.79,8.26,11.42,0.029,0.0,c,8.0
+3.370077581403E12,Sélection noir et lait,200.0,Saveurs & Nature,520.0,19.9,39.4,5.1,6.5,0.12,0.0,e,19.0
+3.370077582233E12,Oeufs lactés lait,150.0,Saveurs & Nature,582.0,23.5,47.2,2.1,9.4,0.31,0.0,e,26.0
+3.370077586361E12,TABLETTE CHOCOLAT AULAIT ET FLEUR DE SEL,100,Ikalia,578.0,25.0,46.5,0.0,6.1,1.05,0.0,e,31.0
+3.372900001157E12,Mousse au chocolat bio,100,Marie Morin,348.0,15.0,18.0,0.0,8.0,0.31,0.0,d,18.0
+3.372900900054E12,Mousse Au Chocolat Noir Bio,100,Marie morin,348.0,15.0,18.0,0.0,8.0,0.31,0.0,d,18.0
+3.37290090173E12,Mousse au chocolat à l'ancienne,200,Marie Morin,348.0,15.0,18.0,0.0,8.0,0.31,0.0,d,18.0
+3.380380037399E12,Muesli Chocolat & quinoa,350,Primeal,407.0,5.26,10.0,8.6,10.8,0.098,0.0,c,7.0
+3.380380092299E12,Sablé gourmets chocolat,150.0,"bisson, Ekibio",486.0,9.0,24.0,4.5,6.5,0.3,8.1,d,16.0
+3.385050000505E12,Galettes au chocolat,370.0,Crêperie Le Masson,281.0,3.0,31.0,0.4,5.5,0.9,0.0,d,14.0
+3.38E12,Muesli Chocolat & quinoa,350.0,Primeal,407.0,5.26,10.0,8.6,10.8,0.098,0.0,c,7.0
+3.39641002413E12,Noir Sélection Pérou,100.0,Bonneterre,580.0,28.0,24.0,11.0,7.0,0.0254,0.0,d,17.0
+3.39641015143E12,Billes Choc,250  e,Evernat,380.0,1.0,34.0,3.6,6.7,0.5,0.0,c,10.0
+3.396410151447E12,Ours'o'choc,250,Evernat,380.0,0.5,36.0,3.0,7.0,0.375,0.0,c,9.0
+3.396411219948E12,Galette de riz au Chocolat noir et  coco,100,Evernat,491.0,15.60000038,25.20000076,4.9,5.699999809,0.02999999933,0.0,d,16.0
+3.39641122076E12,Galettes de riz complet chocolat noir,100,evernat,478.0,14.0,21.6,6.3,6.8,0.025,0.0,d,14.0
+3.396411223464E12,Muesli Sarrasin Chocolat,300.0,Evernat,391.0,2.9,7.4,3.8,9.7,0.4,0.0,a,-1.0
+3.396411236235E12,Chocolat noir Inde 70% de cacao,80.0,Bonneterre,571.0,26.0,29.0,11.0,8.7,0.02,0.0,d,18.0
+3.39641371441E12,Chocolat noir fourré praliné,100.0,Bonneterre,570.0,17.0,42.5,6.0,6.0,0.0254,19.874,e,21.0
+3.41939040539E12,Brioche pur beurre  chocolat,300.0,L'Angélus,388.0,9.7,14.0,3.1,7.4,0.8,0.0,d,16.0
+3.421557102134E12,Gran'o choco fruits rouges aux flocons croustillants,500.0,Grillon d'Or,404.0,2.0,21.1,9.3,8.6,0.02,7.0,b,0.0
+3.421557106064E12,Muesli chocolat,375,terre et cereale Bio,416.0,6.1,12.0,9.0,10.0,0.16,0.0,c,8.0
+3.421557108136E12,Krounchy épeautre chocolat noir,500,Grillon d'Or,440.0,3.4,24.0,7.2,9.2,0.06,0.0,c,8.0
+3.421557110214E12,Krounchy too chocolat,500,Grillon d'Or,445.0,5.7,20.0,8.2,9.2,0.07,0.0,c,9.0
+3.421557110221E12,Muesli avoine amandes chocolat,500,TERRES ET CÉRÉALES,456.0,4.0,22.0,6.8,8.7,0.05,0.0,c,7.0
+3.421557110313E12,Krounchy chocolat,1000.0,Grillon d'or,442.0,2.4,18.0,7.6,9.0,0.01,0.0,b,0.0
+3.421557110344E12,Krounchy Saveur des Andes Quinoa et Cacao,375,Grillon d'Or,415.0,5.2,21.7,7.6,9.0,0.1,0.0,c,9.0
+3.421557111747E12,"Super flakes copeaux de chocolat noir, riz et épautre complet",375,grillon d'or,412.0,4.4,12.0,12.0,11.0,0.02,0.0,c,6.0
+3.421557500923E12,Chokinoa - Céréales au chocolat bio,250.0,Grillon D'or,373.0,0.8,19.0,4.9,9.3,0.03,0.0,a,-2.0
+3.42155750147E12,Pétales Epeautre & riz Chocolat,375,Terres et céréales,408.0,4.9,9.0,5.5,10.0,0.85,0.0,c,8.0
+3.421557501685E12,Muesli croustillant chocolat 500 g,500,"Terres et Céréales bio,Céréco",445.0,5.7,20.0,8.2,9.2,0.07,0.0,c,9.0
+3.421557501883E12,Muesli croustillant cacao coco,1000,Terres et Céréales Bio,427.0,3.0,19.0,8.2,10.0,0.05,0.0,c,6.0
+3.421557501975E12,müesli croustillant duo pépites,100,Terres et Céréales BIO,420.0,4.0,23.0,7.0,8.4,0.05,0.0,c,8.0
+3.421557502477E12,Krounchy chocolat avoine sans gluten,200,Grillon D'or,456.0,4.0,22.0,6.8,8.7,0.05,0.0,c,7.0
+3.421557502583E12,Ann'O choco Maïs & Lentilles,375.0,T&C Terre & Céréales Bio,378.0,2.0,17.0,7.9,13.0,0.04,0.0,a,-2.0
+3.421557502767E12,Muesli au chocolat,200,U,415.0,6.1,12.0,8.6,10.0,0.16,0.0,c,8.0
+3.421557502774E12,Muesli croustillant chocolat,1000,Terres & Céréales Bio,445.0,5.7,20.0,8.2,9.2,0.07,0.0,c,9.0
+3.421557508677E12,muesli croustillant chocolat,1k,terres & céréales bio,445.0,5.7,20.0,8.2,9.2,0.07,0.0,c,9.0
+3.42155760005E12,CHOCOLAT LAIT CARAMEL BEURRE SALEE,100.0,Grillon D'or,577.0,24.1,44.5,2.5,5.9,0.36,0.0,e,25.0
+3.421557600074E12,Chocolat Noir Au Café De Sumatra - 100G - Grillon D'or (céréco),100.0,Grillon D'or,576.0,27.4,26.8,10.1,7.9,0.04,0.0,d,17.0
+3.421557600081E12,Chocolat Noir éclats De Sarrasin - 100G - Grillon D'or (Céréco),100,Les Delices Sans Gluten,550.0,25.2,20.8,11.8,9.0,0.02,0.0,d,15.0
+3.421557600098E12,Chocolait Lait Eclats De Riz,200,Les Delices Sans Gluten,569.0,22.9,45.2,2.3,6.2,0.41,0.0,e,26.0
+3.421557600104E12,Chocolat noir éclats de noix,115.0,Grillon d'or,588.0,24.2,22.3,11.5,9.4,0.03,13.2,d,16.0
+3.421557602047E12,Galettes de riz nappées au chocolat au lait,100,Terres et Céréales,504.0,15.0,25.0,3.9,8.5,0.15,0.0,d,17.0
+3.421557602054E12,Galettes de riz au chocolat noir,100,Terres et céréales,491.0,16.0,18.0,6.2,8.4,0.05,0.0,d,14.0
+3.421557904059E12,Roses Des Sables Choc Noir,100.0,Grillon d'Or,471.0,13.7,15.6,5.7,7.5,0.03,0.0,d,13.0
+3.421557904127E12,Galettes nappées,100,Grillon D'or,504.0,15.0,25.0,3.0,8.5,0.15,0.0,d,18.0
+3.421557904134E12,Galettes de riz chocolat noir,100,Grillon d'Or,483.0,15.0,18.0,6.9,8.5,0.05,0.0,d,14.0
+3.421557904141E12,Galettes Maïs Nappées Chocolat Noir (95 GR),200,Grillon D’Or,495.0,17.0,17.0,7.1,7.9,0.06,0.0,d,14.0
+3.421557904158E12,Galette nappées maïs chocolat au lait,95,Griffon d'or,512.0,16.0,27.0,2.8,7.8,0.17,0.0,e,19.0
+3.421557920257E12,Mix. Mops,300,Grillon d'or,365.0,0.7,23.0,2.7,5.7,0.02,0.0,c,4.0
+3.421557920264E12,Mops chocolat,300.0,Grillon d'Or,364.0,1.2,20.0,3.9,6.5,0.02,0.0,b,1.0
+3.421557920332E12,Mes Krounchy Fraise Chocolat Noir,200,Grillon d'Or,442.0,3.2,18.0,8.0,9.7,0.04,0.0,c,6.0
+3.421557920509E12,Krounchy chocolat,5 k,Grillon d'Or,425.0,2.6,18.0,7.6,9.0,0.01,0.0,b,0.0
+3.421557920813E12,Chocano chocolat,30,Grillon d'Or,375.0,2.0,17.0,7.9,13.0,0.04,0.0,a,-2.0
+3.421557921339E12,Krounchy proteines chocolat noir,500.0,grillon d'or,419.0,2.2000000476837,14.0,9.8000001907349,15.0,0.02,0.0,b,0.0
+3.423720003552E12,Sablés chocolat équitable bio,&-à,bio soleil,389.0,9.3,20.0,5.5,8.2,0.26,0.0,d,13.0
+3.42672100007E12,Mousse au chocolat artisanale,45 cl / 220,La Hulotte,366.0,19.1,15.5,3.3,8.8,0.3,0.0,d,15.0
+3.428420019919E12,WHAT THE french,100,what the french,217.0,4.0,26.0,0.9,5.8,0.13,0.0,c,7.0
+3.42E12,Muesli avoine amandes chocolat,500.0,TERRES ET CÉRÉALES,456.0,4.0,22.0,6.8,8.7,0.05,4.1,c,7.0
+3.433871240027E12,Crème glacée au chocolat noir de Tanzanie avec morceaux de chocolat et sauce au chocolat,78,La Manufacture des Belles Glaces,208.0,5.97,21.59,2.48,4.38,0.09,0.0,c,9.0
+3.433871250026E12,Crème glacée au chocolat noir de Tanzanie avec moceaux et sauce au chocolat,300,La Manufacture des Belles Glaces,208.0,5.97,21.59,2.48,4.38,0.09,0.0,c,9.0
+3.433877510063E12,Crème glacée,"487,5",La Manufacture des Belles Glaces,206.0,5.93,21.08,2.31,4.42,0.09,0.0,c,9.0
+3.43E12,Crème glacée au chocolat noir de Tanzanie avec moceaux et sauce au chocolat,300.0,La Manufacture des Belles Glaces,208.0,5.97,21.59,2.48,4.38,0.09,0.0,c,9.0
+3.450970104258E12,Boules de céréales au chocolat,750,"€.c.o.+,Eco+",357.0,1.1,24.0,6.2,8.6,0.43,0.0,c,6.0
+3.456300000238E12,Galette maïs riz nappées Chocolat noir,90,"Jardin Bio,Léa Nature",477.0,14.0,23.0,5.3,6.8,0.01,0.0,d,15.0
+3.45E12,Boules de céréales au chocolat,750.0,"€.c.o.+,Eco+",357.0,1.1,24.0,6.2,8.6,0.43,0.0,c,6.0
+3.465511310371E12,Céréales germées chocolat noisette,200,Germline,423.0,11.8,15.0,11.5,10.0,0.0,0.0,d,13.0
+3.465511460502E12,Barre de céréales germées,40.0,Germline,487.0,0.0,0.0,8.2,12.11,0.0,16.667,a,-4.0
+3.467390140308E12,Crème Renversée Chocolat Brebis,2×110,Annie Lagarrigue,140.0,3.7,14.7,0.0,5.6,0.11,0.0,c,4.0
+3.474340016354E12,Monbana 65% de Cacao,35.0,Monbana,559.0,26.0,32.0,0.0,6.8,0.0,0.0,e,23.0
+3.501940000213E12,Pâte à Tartiner Noisettes Chocolat Noir,200,Bovetti,624.0,10.0,30.0,5.0,9.3,0.02,0.0,d,17.0
+3.501940001302E12,Tablette Noir Cannelle,100.0,Bovetti,617.0,31.0,26.0,12.0,6.4,0.06,0.0,d,17.0
+3.501940122922E12,Chocolat au lait et noisette Bio,350,BOVETTI CHOCOLATIER,588.0,24.0,46.0,2.8,7.5,0.15,0.0,e,25.0
+3.501940131009E12,Chocolat Noir Origine Saint Domingue,100.0,Bovetti,564.0,27.0,26.0,14.0,8.0,0.2,0.0,d,17.0
+3.501940136509E12,Pâte à tartiner bio rocher chocolat au lait,200,Bovetti,606.0,9.9,41.0,2.7,6.8,0.07,0.0,e,23.0
+3.501940366005E12,Véritable pâte à tartiner bio chocolat noir - noisettes 40%,200,Bovetti,616.0,9.3,30.0,6.0,9.5,0.0,0.0,d,17.0
+3.501940369006E12,Pâte à tartiner bio - 40% noisettes - Chocolat Noir,350,Bovetti,616.0,9.3,30.0,6.0,9.5,0.06,0.0,d,17.0
+3.501940491004E12,Chocolat noir cerise et piment d'espelette,200,Bovetti,559.0,25.0,26.0,0.0,8.4,0.04,0.0,e,21.0
+3.501940566009E12,Petit lapin chocolat au lait bio,40.0,Bovetti,590.0,26.0,47.0,2.5,7.0,0.2,0.0,e,25.0
+3.501940803005E12,Pâte à tartiner amandes chocolat au lait,100,Bovetti,492.0,19.0,33.0,5.9,11.0,0.07,0.0,d,18.0
+3.501940908007E12,Pate a tartiner bio Chocolat noir - amandes 40%,350,Bovetti,476.0,8.4,27.0,8.6,11.0,0.07,0.0,d,13.0
+3.523230040297E12,Exquis choco à l'avoine,400.0,A Bicyclette,121.0,1.6,13.0,2.0,2.1,0.1,0.0,b,1.0
+3.5232300468E12,Crème dessert au chocolat Les 300&bio,380,Les 300 & Bio,160.0,3.8,20.0,1.0,4.1,0.1,0.0,c,5.0
+3.523230056021E12,A bicyclette À l'avoine Chocolat et éclats de noix de coxo,400.0,a Bicyclette,123.0,2.0,13.0,2.0,1.1,0.1,4.0,b,2.0
+3.523230056038E12,Chocolat & eclats de noisettes,400,a Bicyclette,124.0,1.6,14.0,2.2,1.3,0.1,0.0,c,3.0
+3.523230056076E12,Le dessert fondant,2 x 125,SOIGNON,154.0,5.8,13.0,1.0,6.2,0.1,0.0,c,4.0
+3.525830000848E12,Crème de châtaigne chocolat rhum,200,Les Confitures Demelin,232.0,0.0,62.0,2.3,0.0,0.0,0.0,c,9.0
+3.525830000886E12,Chataigne,320,Les Confitures Demelin,263.0,1.8,50.0,2.4,1.5,0.0,0.0,d,11.0
+3.533630097159E12,Candy'up bio,80.0,Candia,62.0,0.6,9.7,0.6,3.2,0.1,0.0,b,1.0
+3.560070330867E12,Boules de céréales au goût chocolat,750.0,"Carrefour discount,Carrefour",380.0,1.0,24.0,10.0,9.7,0.43,0.0,b,0.0
+3.560070371037E12,Bio Galettes de Riz nappées de Chocolat Noir,100,Grand Jury,478.0,13.8,22.8,5.8,6.7,0.3,0.0,d,16.0
+3.560070475964E12,Orangettes,150.0,"CARREFOUR BIO, Carrefour",439.0,11.0,53.0,4.6,3.9,0.08,60.0,e,20.0
+3.560070478606E12,Crêpes fourrage au chocolat,8 * 32  (256 ),Grand Jury,450.0,5.9,36.0,2.5,6.9,0.8,0.0,d,18.0
+3.560070541362E12,Crème dessert chocolat,380  (4 x 95 ),"Carrefour BIO,Groupe Carrefour,Carrefour",152.0,3.2,20.0,1.0,4.2,0.1,0.0,c,5.0
+3.560070579006E12,Galettes de riz nappés chocolat noir noix de coco râpée,90,Carrefour Bio,496.0,17.1,21.6,6.7,6.3,0.05,0.0,d,15.0
+3.560070725588E12,Mini galettes de riz au chocolat au lait,60,Carrefour,484.0,13.0,24.0,2.7,7.2,0.1,0.0,e,19.0
+3.560070725618E12,Galettes de maïs Chocolat noir,100,"Carrefour,Carrefour BIO",476.0,13.7,22.1,8.4,6.6,0.1,0.0,d,14.0
+3.56007080023E12,Choco Curlz,375,"Carrefour Kids,Carrefour",392.0,1.4,29.0,6.6,9.6,0.24,0.0,c,7.0
+3.560070800261E12,Choco Bollz,375,"Carrefour Kids,Carrefour",385.0,1.1,28.0,6.3,8.2,0.48,0.0,c,8.0
+3.560070800292E12,Choco Rice,375,"Carrefour Kids, Carrefour",398.0,1.4,30.0,6.5,7.5,0.375,0.0,c,7.0
+3.560070800568E12,Choco Curlz,375,Grand Jury,392.0,1.4,29.0,6.6,9.6,0.24,0.0,c,7.0
+3.56007089455E12,Bâtonnets chocolat au lait,125.0,Carrefour bio,534.0,16.0,35.0,2.6,6.7,0.4,0.0,e,22.0
+3.560070967698E12,Céréales cœur fondant au chocolat et aux noisettes No gluten!,375,Carrefour,449.0,9.600000381,22.0,3.1,6.400000095,0.6000000238,0.0,d,17.0
+3.560071007287E12,Choco Curlz,375.0,Carrefour,389.0,1.6,25.0,7.5,9.9,0.22,0.0,b,0.0
+3.56007101535E12,Galette de riz - nappées chocolat au lait,90,Carrefour bio,497.0,14.0,27.0,3.5,7.8,0.1,0.0,d,18.0
+3.560071090821E12,Choco Ballz,375,Carrefour,385.0,1.1,28.0,6.3,8.2,0.48,0.0,c,8.0
+3.560071094157E12,Creme dessert chocolat,200,Carrefour,128.0,2.6,16.0,1.2,3.8,0.1,0.0,c,3.0
+3.560071182663E12,Crème dessert au chocolat au lait entier de brebis,2  x 100,"Carrefour Bio,Carrefour",156.0,4.5,13.0,1.9,5.4,0.1,0.0,c,3.0
+3.560071182687E12,Fondant au Chocolat,180.0,"Carrefour Bio,Carrefour",364.0,14.0,23.0,2.9,6.4,0.11,0.0,d,16.0
+3.560071267032E12,Pétales au chocolat,375,Carrefour-Bio,379.0,1.6,25.0,7.6,9.3,0.22,0.0,b,0.0
+3.560071281489E12,Assortiments de bonbons de chocolat noir,174.0,"Carrefour Bio,Carrefour",539.0,18.0,37.0,5.6,9.2,0.07,16.7,e,19.0
+3.560071281519E12,Assortiment de bonbons de chocolats,175.0,"Carrefour Bio,Carrefour",539.0,17.0,39.0,7.4,7.7,0.16,15.2,e,19.0
+3.560071407599E12,Muesli avoine chocolat,60.0,"Carrefour Bio,Carrefour",376.0,2.8,8.0,8.9,11.0,0.03,0.0,a,-3.0
+3.560071417208E12,Croustillant avoine chocolat,500,Carrefour Bio,465.0,5.6,13.0,8.0,10.0,0.04,0.0,c,7.0
+3.560071430351E12,Brownie pepites de chocolat,200,"Carrefour,Carrefour Bio",479.0,9.7,31.0,2.9,6.0,0.26,0.0,d,18.0
+3.564700395707E12,Spécialité au soja chocolat,400.0,"Délisse,Marque Repère, Nat&Vie",91.0,0.6,11.0,1.9,3.3,0.12,0.0,b,0.0
+3.564706614819E12,Riz & blé soufflés au chocolat,400.0,Leclerc,386.0,1.1,22.0,4.0,8.3,0.29,0.0,b,1.0
+3.564706614826E12,Petales choco,200,Leclerc,390.0,1.5,29.0,7.1,9.3,0.23,0.0,c,7.0
+3.564706640948E12,Mousse au chocolat Equador,2 * 90,Equador,324.0,13.0,21.0,3.7,7.8,0.25,0.0,d,16.0
+3.564707102094E12,Galette de riz au chocolat noir,90,"Bio Village,Marque Repère, marque repère bio village",487.0,13.0,21.0,5.300000191,7.699999809,0.02,0.0,d,15.0
+3.564707115018E12,Petit pot de crème Chocolat,200,"Bio Village,Marque Repère",184.0,6.2,15.0,3.0,5.6,0.1,0.0,c,8.0
+3.564707120999E12,Mini galette de riz chocolat au lait,60,"Bio Village,Marque Repère",491.0,13.0,24.0,2.9,7.5,0.07,0.0,d,18.0
+3.564707121033E12,Galette de mais chocolat noir,100,"Bio Village,Marque Repère",492.0,13.0,21.0,6.4,7.7,0.02,0.0,d,15.0
+3.564707135856E12,Coeur fondant,180.0,"Bio Village, Marque Repère",365.0,14.0,23.0,2.9,6.4,0.11,0.0,d,16.0
+3.564707147743E12,Bio Village pétales chocolat (blé complet),300,"Bio Village,Marque Repère",371.0,1.8,20.0,8.9,11.0,0.42,0.0,b,0.0
+3.564707157896E12,Galette de Maïs  chocolat au lait,100,Bio Village,499.0,14.0,29.0,3.5,7.0,0.1,0.0,e,19.0
+3.564707168847E12,Lait au chocolat,20.0,bio village,71.0,1.3,9.7,0.0,3.5,0.1,0.0,b,1.0
+3.56470718623E12,Muesli croustillant Chocolat&Quinoa,500,Bio Village,433.0,5.3,22.0,7.2,9.4,0.05,0.0,c,9.0
+3.564707186278E12,Muesli croustillant tout chocolat,500,Marque Repère,444.0,6.0,20.0,8.7,9.6,0.05,0.0,c,9.0
+3.567100000004E12,Baudouin le lapin,200,Reauté Chocolat,559.0,22.5,48.3,6.6,0.0,0.17,0.0,e,21.0
+3.56E12,Muesli croustillant tout chocolat,500.0,Marque Repère,444.0,6.0,20.0,8.7,9.6,0.05,0.0,c,9.0
+3.571374011604E12,Biscuiterie Makronen Mandel Glutenfrei 160 g,300,Biscuiterie De Provence,462.0,1.8,52.0,4.5,13.0,0.08,118.0,b,2.0
+3.571375922206E12,Gateau Amandes Et Chocolat,225.0,Biscuiterie de Provence,441.0,7.5,19.0,6.4,12.0,0.1,30.0,d,11.0
+3.571375929205E12,Gateau moelleux bio amandes et chocolat,200,La Petite Fabrique Provencale,441.0,7.5,19.0,6.4,12.0,0.1,0.0,d,11.0
+3.57242000074E12,Pétale Choc,375.0,Lucien Georgelin,386.0,2.6,21.3,11.0,9.6,0.01,0.0,b,0.0
+3.572420001327E12,Céréales Cookied,500,Le Jardin de Corentin,390.0,1.1,25.4,10.5,12.3,0.6,0.0,c,7.0
+3.580281080184E12,Granola bio 2 chocolats amandes,375,AGIDRA,442.0,8.7,20.0,7.7,10.0,0.02,0.0,d,12.0
+3.595120012974E12,Baies de goji choco noir,100.0,Maison Roucadil,405.0,6.4,41.9,6.9,12.7,0.3,75.0,d,14.0
+3.596710307333E12,Galette de riz chocolat noir,90,Auchan,509.0,14.3,24.0,6.4,7.4,0.0,0.0,d,16.0
+3.596710346066E12,Céréales choco crisp,375,Auchan,391.0,1.5,34.0,5.0,7.0,0.25,0.0,c,8.0
+3.596710380916E12,Galettes de Riz Chocolat au Lait,90,Auchan,497.0,14.3,27.0,3.5,7.8,0.1,0.0,d,18.0
+3.596710430772E12,Petits pots de crème chocolat,200  (2 * 100),Auchan,183.0,6.2,15.0,0.5,5.6,0.12,0.0,d,11.0
+3.596710436903E12,Chocolat gourmand mmm!,500.0,"Mmm !,Auchan",79.0,1.2,9.3,9.6,3.4,0.14,0.0,b,1.0
+3.596710464975E12,Mousse au chocolat noir,140,Auchan,320.0,13.0,21.0,3.0,6.9,0.16,0.0,d,14.0
+3.596710472796E12,Coeur fondant au chocolat noir,180.0,Auchan,359.0,13.0,24.0,2.2,6.6,0.12,0.0,d,17.0
+3.608580765677E12,Bonne mamanMousse au chocolat aux œufs frais,200,Bonne Maman,332.0,15.0,13.0,3.4,7.9,0.13,0.0,d,13.0
+3.661344855212E12,Crèmeuh Chocolat,380  (4 x 95 ),"Les 2 Vaches,Stonyfield France,Danone",151.0,3.4,18.7,1.0,4.3,0.29,0.0,c,6.0
+3.662072084974E12,Granola proteine,325,Trainsweateat,415.0,7.0,14.0,11.0,25.0,0.05,0.0,c,9.0
+3.664678015178E12,Crunchy d'epeautre au chocolat,250,Sefi Bio,423.0,3.95,19.07,5.82,8.83,0.1,0.0,c,7.0
+3.664678103806E12,Galettes de riz nappées chocolat,150,Sefi' Bio,473.0,9.83,12.62,3.03,7.0,0.02,0.0,d,13.0
+3.66E12,Granola proteine,325.0,Trainsweateat,415.0,7.0,14.0,11.0,25.0,0.05,0.0,c,9.0
+3.700036900028E12,Barres céréalières chocolat noisettes,125.0,Naturalia,435.0,6.6,19.5,7.8,7.5,0.2,9.48,c,10.0
+3.700125802004E12,L'Excellence de Motta - Dégustation Gourmande,200,Motta,591.0,22.0,40.0,0.0,8.7,0.16,0.0,e,25.0
+3.700152400723E12,Chocolat Bonnat voiron,100.0,"Bonnat,Chocolat Bonnat",592.0,21.2,33.4,0.0,8.6,0.0,0.0,e,24.0
+3.700195678424E12,Barre proteinee,50,vit'all+,375.0,4.94,22.94,16.94,26.02,0.69,0.0,d,11.0
+3.70021461316E12,Lait de coco,100.0,Alter Eco,232.0,22.0,1.3,10.0,1.9,0.7,0.0,c,10.0
+3.700214613627E12,Galettes de riz complet au chocolat noir,30,Alter Eco,504.0,15.3,27.7,4.3,5.6,0.05,0.0,d,18.0
+3.700254081271E12,La Galette fine Chocolat,100.0,Trésors gourmands,473.0,14.0,33.0,0.0,7.6,1.0,0.0,e,26.0
+3.700531201859E12,"Chocolat Au Lait, Pavot & Sésame",100.0,"ETHIQUABLE,BELLEDONNE",571.0,23.0,45.0,2.7,8.1,0.19,0.75,e,24.0
+3.700531201927E12,Chocolat noir éclats d'amandes,100.0,Belledonne,576.0,25.0,24.0,5.8,9.3,0.18,0.0,d,17.0
+3.700531201965E12,Chocolat noir menthe poivrée,100.0,Belledonne,534.0,23.0,33.0,9.1,5.5,0.15,0.0,d,18.0
+3.700531202023E12,Tablette Chocolat Noir 74% Fourré Pur Fruit Cassis Bio,100,"Ethiquable, Belledonne",480.0,18.0,34.0,7.8,5.3,0.0,0.0,d,17.0
+3.700531202047E12,Noir praliné amande café,200,Belledonne,539.0,20.0,46.0,4.9,6.9,0.02,0.0,e,21.0
+3.700531202061E12,Lait praliné cajou,100.0,Belledonne,565.0,20.0,48.0,2.3,7.3,0.15,12.0,e,25.0
+3.700531202085E12,Belledonne collection à patisser,100.0,Belledonne,543.0,24.0,47.0,5.0,6.0,0.009999999776,0.0,e,21.0
+3.700531202122E12,ST-DOMINGUE noir 74%,100.0,Belledonne,568.0,27.0,26.0,14.0,8.0,0.200000003,0.0,d,17.0
+3.700531202672E12,Lait Gianduja noisettes finement broyées,200,Belledonne,629.0,22.0,39.0,4.1,9.2,0.26,0.0,e,22.0
+3.700531211681E12,Collection Découverte,120.0,Belledonne,561.0,21.0,39.0,5.1,7.0,0.19,8.667,e,19.0
+3.700569022136E12,"Muesli Croustillant aux pépites de chocolat, BIO.",320,Dietbon,471.0,8.3,17.5,7.8,11.8,0.06,0.0,d,11.0
+3.701239902567E12,Pâte à tartiner chocolat noisettes,260,Michel et Augustin,300.0,5.0,27.0,2.8,5.4,0.1,0.0,c,10.0
+3.701239902574E12,Pâte à tartiner cacahuètes,260,Michel & Augustin,285.0,3.8,27.0,2.0,8.3,0.49,0.0,d,11.0
+3.701239902581E12,Pâte a tartiner chocolat intense,260,Michel et Augustin,291.0,4.4,27.0,4.6,5.1,0.14,0.0,c,8.0
+3.701367600168E12,Les minis boulettes Tout chocolat Bio,120.0,Les Fabuleuses,348.9,6.0,42.2,3.9,5.1,0.0,64.0,d,12.0
+3.701367600175E12,Les minis boulettes Saveur cookies Bio,120,Les Fabuleuses,364.0,5.7,40.7,3.4,5.3,0.012,0.0,d,13.0
+3.701424000788E12,Choco bio,150,U,512.0,17.0,38.0,5.0,6.0,0.18,0.0,e,19.0
+3.746601645E10,Chocolat,3.5 OZ (100),"Lindt,Lindt & Sprungli (Usa) Inc.",575.0,11.0,5.0,6.0,5.0,37.5,0.0,d,13.0
+3.760014422935E12,Muesli au Chocolat,100,"Voyager,Falières Nutrition",412.0,4.0,23.5,9.6,12.1,0.1,0.0,c,8.0
+3.760020503833E12,Muesli chocolat noir et graines de lin,375.0,"Jardin Bio étic,Léa Nature, Jardin bio",397.0,3.3,11.0,11.0,11.0,0.03,0.0,a,-1.0
+3.760020508678E12,Pâte à Tartiner Chocolat à La Noix De Coco Bio,350,"Jardin Bio,Léa Nature",557.0,8.9,44.4,5.6,5.2,0.1,0.0,d,18.0
+3.760026141398E12,Macarons chocolat,200,Maitre Panis,476.0,2.8,45.0,6.5,14.0,0.02,0.0,c,10.0
+3.760030721319E12,Lait d'Amande Chocolat,400,La Mandorle,95.0,2.0,23.0,11.0,15.0,0.03,0.0,b,2.0
+3.760049797589E12,Bizz éclats choco lait,240.0,La Boulangere,367.0,4.1,13.0,2.1,8.3,0.96,0.0,d,12.0
+3.760049798432E12,Mon goûter briochette choco lait,200,LA BOULANGÈRE BIO,363.0,3.8,12.0,3.1,8.5,0.9,0.0,c,9.0
+3.760052230653E12,figue au chocolat,230,Karine & Jeff,194.0,1.6,42.0,2.1,0.09,0.04,0.0,c,8.0
+3.760054740716E12,4 pains au chocolat pur beurre,220.0,Cyril Pinabel,427.0,12.23,12.6,2.8,6.6,0.7,0.0,d,18.0
+3.760059786665E12,Calendrier spécial Ramadan,250.0,Les jardins des zibans,120.0,0.0,22.0,3.0,2.0,0.0,11.111,b,0.0
+3.760072010204E12,Pâte à Tartiner Châtaigne Chocolat Noisette,360,"G.A.E.C. Marron Châtaigne,Marron Châtaigne",332.4,1.7,48.3,3.4,1.8,0.0,0.0,d,11.0
+3.76007201031E12,Pate a tartiner chataigne chocolat noisette,250,Marron Châtaigne EARL,332.3999939,1.700000048,48.29999924,3.4,1.799999952,0.0,0.0,d,11.0
+3.760077180063E12,Chocolats fins 70% cacao - Eclats de noisettes torréfiées,100.0,"Saveurs Et Nature,Saveurs & Nature",546.0,23.5,23.5,12.5,11.7,0.0152,5.0,d,16.0
+3.760077180094E12,Chocolat 70% gingembre confit,100,Saveurs & Nature,433.0,18.6,25.6,11.43,5.4,0.01,0.0,d,15.0
+3.760077180193E12,Truffes Cacao,100.0,Saveurs & Nature,517.0,21.7,38.2,0.0,7.7,0.05,0.0,e,24.0
+3.76007718023E12,Chocolat 70 % écorces d'orange confites,100.0,Chocolaterie Saveurs&Nature,541.4,24.48,23.13,12.13,7.16,0.0,10.0,d,16.0
+3.760077180544E12,Chocolat noir - Amandes des Pouilles,100.0,SAVEURS ET NATURE,579.0,22.1,21.4,11.9,10.4,0.02,20.0,d,16.0
+3.760077183736E12,Bouchees Coco Chocolat Noir,45.0,Ikalia,560.0,28.6,42.5,8.8,4.6,0.268,24.0,e,21.0
+3.760077187642E12,Bouchées de chocolat au lait coco,45,Saveurs Nature,571.0,28.1,49.1,6.1,4.1,0.12,0.0,e,22.0
+3.760077187673E12,Bouchees Coco Choc Noir,45.0,SAVEURS & NATURE,560.0,28.6,45.1,8.8,4.6,0.07,24.0,e,21.0
+3.760091728449E12,Barre Physalis Grenade pâte de datte et fruits séchés,35.0,Ethiquable,379.0,4.9,26.0,9.9,4.1,0.0,48.0,c,7.0
+3.760091728487E12,Pâte de datte et fruits séchés - Physalis Grenade,105.0,Ethiquable,379.0,4.9,26.0,9.9,4.1,0.0,48.0,c,7.0
+3.760091728494E12,Barres Physalis Fèves de cacao,3,Ethiquable,422.0,9.3,17.0,11.0,5.6,0.0,0.0,d,11.0
+3.760092217287E12,Pate a tartiner,200,Viadelice,549.0,12.0,37.0,3.5,4.2,0.0,0.0,e,21.0
+3.760109056038E12,Cookie tout chocolat - vrac,1 biscuit = 41,Belledonne,504.0,14.0,34.0,3.2,6.3,0.82,0.0,e,23.0
+3.76010905607E12,BISCUIT ENROBE NOIR fourré ORANGE,100,BIOCOOP,464.0,13.0,39.0,3.5,4.9,0.15,0.0,e,20.0
+3.760121211224E12,Galettes de riz chocolat noir bio,100,Biocoop,492.0,14.0,23.0,3.9,5.9,0.13,0.0,d,17.0
+3.760121211231E12,Galettes riz chocolat noir-coco bio,100,biocoop,491.0,16.0,20.0,4.5,6.0,0.12,0.0,d,16.0
+3.76012121302E12,Crème dessert chocolat 4x100g CC,4 x 100,Biocoop,128.0,3.1,15.0,1.1,3.4,0.11,0.0,c,4.0
+3.760121214508E12,Muesli banane chocolat et graines,500.0,Biocoop,328.0,2.6,9.5,10.0,12.0,0.01,13.0,a,-2.0
+3.760121215291E12,Galette tout chocolat (16),110.0,"Bicoop, Biocoop",517.0,12.0,25.0,4.1,7.1,0.49,0.0,e,19.0
+3.760121215574E12,Crème chocolat au lait entier 400g CC,400,Biocoop,128.0,3.1,14.0,0.8,3.6,0.1,0.0,c,5.0
+3.760121216953E12,Mousse au chocolat noir,160,Biocoop,356.0,16.0,20.0,2.9,7.0,0.3,0.0,d,16.0
+3.76012121708E12,Crème renversée brebis choc 2x110g CC,110,Biocoop,140.0,3.7,15.0,0.0,5.6,0.11,0.0,c,4.0
+3.760121217813E12,Muesli croustillant Chocolat & Amandes,1000,Biocoop,416.0,1.6,23.0,8.0,8.2,0.01,0.0,c,6.0
+3.76012121782E12,Muesli croustillant chocolat amande,5 k,Biocoop,416.0,1.6,23.0,8.0,8.2,0.01,0.0,c,6.0
+3.760121217905E12,Chocolat au lait riz croustillant,100.0,Biocoop,562.0,22.0,43.0,2.2,6.5,0.16,0.0,e,24.0
+3.760121217912E12,Chocolat noir éclats d'amandes et de caramel,100.0,Biocoop,573.0,22.0,40.0,8.1,5.2,0.67,0.0,e,22.0
+3.760122961302E12,"Carrés  au beurre, pointe de sel et choco noir 73g",73,Michel et Augustin,520.0,16.0,29.0,0.0,6.9,0.73,0.0,e,25.0
+3.760134632009E12,Brioche pépites de chocolat,450.0,Maison Planchot,402.0,12.0,19.0,0.0,7.5,0.99,0.0,e,23.0
+3.760152700735E12,Goutine,125.0,Aglina,443.0,9.6,28.0,4.6,5.9,0.01,0.0,d,16.0
+3.76015910286E12,Galettes de riz bio au chocolat,200,C Tout Simple,486.0,14.0,24.0,6.0,6.9,0.13,0.0,d,16.0
+3.760159103577E12,Galettes de riz bio au chocolat,33,C' tout simple,485.0,13.0,27.0,5.2,6.3,0.13,0.0,d,16.0
+3.760182020025E12,Granola - Muesli à la Canneberge - Le Moulin d'Arche,400,Le Moulin D'arche,471.0,3.7,30.7,8.5,10.4,0.0048,0.0,c,9.0
+3.76018202023E12,Chocoberges canneberges enrobées,200,Le Moulin d'Arche,447.0,12.2,48.0,7.6,3.6,0.02,0.0,e,20.0
+3.760211821401E12,Melange de céréales soufflées chocolat et vanille bio,200,bio par nature,397.0,1.6,37.0,7.9,7.4,0.02,0.0,c,8.0
+3.760211821425E12,Granola chocolat noir,400,bio par nature,441.0,5.1,21.0,7.8,9.9,0.1,0.0,c,9.0
+3.760231780382E12,Chocolat noir 71% éclats citronnés et poivre vert recette n°21,200,Carré Suisse,554.0,23.0,35.0,0.0,8.0,0.025,0.0,e,23.0
+3.760253540018E12,Les Crousticks chocolat au lait,125.0,Sémilia,469.0,12.2,26.1,1.2,6.5,0.01,0.0,e,19.0
+3.760253540049E12,Les Crousticks Tout chocolat,125,Sémilia,445.0,9.76,27.93,4.23,5.99,0.01,0.0,d,16.0
+3.760266120306E12,Cœurs fondants au chocolat bio,160,Les petites pousses,329.0,14.6,25.0,2.8,2.5,0.217,0.0,d,17.0
+3.760274102172E12,Granola chocolat noir et poudre d’insectes,350,"Jimini's,SAS ENTOMA",407.0,4.1,15.0,4.7,14.0,0.11,0.0,c,8.0
+3.760278630374E12,Galette de riz 60% chocolat,100,Avi Kosher,478.0,13.1,29.6,3.2,6.6,0.2,0.0,d,18.0
+3.760286460093E12,Biscuits bio petit dej',160.0,Hoope,467.0,4.3,18.9,8.1,10.8,0.1,9.0,c,8.0
+3.76E12,Crème chocolat au lait entier 400g CC,400.0,Biocoop,128.0,3.1,14.0,0.8,3.6,0.1,0.0,c,5.0
+3.770000459319E12,Doigts chocolat,350,"Amandine,Tasty",478.0,3.5,24.0,2.7,9.2,0.07,0.0,d,11.0
+3.770002635353E12,Préparation pour Cookies aux pépites de chocolat,200,L'instant Bio,388.0,3.8,36.0,0.0,6.3,0.75,0.0,d,17.0
+3.770003574101E12,Assortiment chocolat noir 75%,200,SARL BOUGA CACAO,519.62,23.7,23.27,12.37,9.0,0.19,0.0,d,16.0
+3.770003574125E12,Chocolat artisanal de l'Ariège,70.0,Bouga Cacao,535.64,25.5,21.49,13.08,8.44,0.22,0.0,d,15.0
+3.770003574149E12,Chocolat artisanal de l'ariege gingembre,70.0,Bouga Cacao,503.0,15.0,30.6,10.9,7.0,0.2,0.0,d,17.0
+3.770003574187E12,Chocolat noir graines de courge et anis,70.0,Bouga Cacao,533.1,42.0,20.1,12.9,9.5,0.2,0.0,d,15.0
+3.770003574194E12,Chocolat artisanal de l’Ariège,70.0,Bouga Cacao,529.0,0.0,21.2,12.9,8.3,1.4,0.0,d,11.0
+3.770003574293E12,Bouga Cacao - Chocolat artisanal,70.0,Nature Bio,570.0,32.4,0.3,16.7,11.6,0.0,0.0,d,12.0
+3.770004620609E12,Carrés De Chocolat Praliné Aux Ténébrions Bio & Naturellement Sans Gluten,80.0,Micronutris,556.0,14.0,32.0,10.86,9.0,0.05,0.0,d,18.0
+3.770004621255E12,Chocolat Noir Ténébrio,70.0,Micronutris,384.6,18.18,17.15,7.8,6.87,0.02,0.0,d,12.0
+3.770005222376E12,Granola chocolat noir,300,"GUSTONEO,Bio M&Co",370.0,4.6,11.0,9.5,11.0,0.04,0.0,b,0.0
+3.770005222383E12,Granola Mûres Myrtilles et Chocolat Blanc,300.0,"GUSTONEO,Bio M&Co",122.0,1.7,4.0,3.0,3.0,0.01,3.0,b,0.0
+3.770005222413E12,Granola chocolat noir,325,GUSTONEO,370.0,6.800000191,11.0,9.5,11.0,0.04,0.0,c,7.0
+3.770006003561E12,Granola Chocolat - Cacahuète,300,Les Fruits Détendus,432.0,5.5,13.3,8.8,13.4,0.12,0.0,c,7.0
+3.770007543509E12,Granola Bio Chocolat & Noisettes,350,Sources,430.0,6.0,17.3,7.1,10.7,0.5,0.0,c,10.0
+3.770008500013E12,Barre cacahuètes,45.0,Go Nuts,496.0,5.08,23.65,7.84,15.54,0.35,0.0,c,10.0
+3.77000850002E12,Barre energetique choco-crunch,45.0,Go Nuts,417.0,3.1,23.7,12.12,15.1,1.0,0.0,d,12.0
+3.770008500044E12,Beurre de cacahuètes chocolat noir Bio,500,Go Nuts,585.0,10.8,12.1,9.5,22.7,0.22,0.0,c,4.0
+3.770008500068E12,Pâte à tartiner amandes choco coco Bio,280,Go Nuts,597.0,11.4,13.4,10.7,16.7,0.02,0.0,c,4.0
+3.770008500082E12,Pâte à tartiner choco-noisettes Bio,265,Go Nuts,674.0,8.3,10.6,6.9,12.4,0.01,0.0,d,11.0
+3.770008500136E12,Beurre de cacahuètes chocolat noir Bio,270,Go Nuts,585.0,10.8,12.1,9.5,22.7,0.22,0.0,d,12.0
+3.77001137313E12,Barre+ focus énergie,40,IN.PULSE,431.0,4.0,32.0,8.0,14.0,69.0,0.0,e,19.0
+3.770012006792E12,Noisette-chocolat,200,Sport'n Bio,666.0,9.399999619,11.69999981,14.6,14.10000038,0.02,0.0,d,12.0
+3.770013545511E12,Granola Chocolat Intense 350g BIO,350,Natifood,424.0,6.0,17.0,8.7,11.0,0.56,0.0,c,10.0
+3.770013545559E12,"Muesli Chocolat, Goji & Coco 350g BIO",350.0,Natifood,393.0,6.0,8.4,9.3,11.9,0.0,10.0,b,0.0
+3.77001354558E12,Biscuits Chocolat et cacao 100g BIO,100.0,Natifood,444.0,3.8,21.0,7.9,6.0,0.6,14.0,c,9.0
+3.770013545597E12,Biscuits Noisette et Chocolat 100g BIO,100.0,Natifood,468.0,3.9,20.0,8.8,3.6,0.59,27.0,c,9.0
+3.770013545764E12,Granola Chocolat,350,Bam&Co,430.0,5.9,15.5,9.1,9.6,0.4,0.0,c,9.0
+3.770013545832E12,Biscuit Tout Chocolat,100.0,Bam&Co,487.0,4.0,22.8,8.0,6.0,0.15,14.0,c,9.0
+3.770013545894E12,Biscuits Chocolat et Noisettes 100g BIO,100.0,Bam&Co,512.0,3.8,22.0,8.4,5.9,0.15,27.0,c,8.0
+3.770015307025E12,Glace chocolat 100% bio,400,La Mémère,220.4,6.6,20.6,2.3,4.2,0.1,0.0,c,10.0
+3.770015402096E12,Muesli croquant chocolat/cacahuetes,350,monsieur Muesli,415.0,5.329999924,8.399999619,11.0,19.59000015,0.01,0.0,c,6.0
+3.770016639095E12,Granola Pépites de chocolat,300,Joody,427.0,5.6,13.1,8.9,12.8,0.12,0.0,c,7.0
+3.770016639125E12,Granola Chocolat - Noisette,300,Joody,438.0,4.8,11.7,9.0,13.2,0.12,0.0,c,6.0
+3.770016639156E12,Granola Pépites de chocolat,80,Joody,438.0,5.8,13.3,8.5,13.5,0.13,0.0,c,7.0
+3.770016639163E12,Granola Chocolat - Noisette,80,Joody,450.0,5.1,11.8,8.7,14.0,0.13,0.0,c,7.0
+3.770018153018E12,Biscuits anti-gaspi,250.0,In extremis,337.0,2.6,12.0,6.2,5.9,0.36,9.0,b,1.0
+3.770023905008E12,La pâte à tartiner chocolat noir noisette,200,NÉO GOURMETS,498.0,8.6,28.0,11.0,10.0,0.06,0.0,d,15.0
+3.77E12,Granola chocolat noir,325.0,GUSTONEO,370.0,6.800000191,11.0,9.5,11.0,0.04,0.0,c,7.0
+3.7E12,Pâte à tartiner chocolat noisettes,260.0,Michel et Augustin,300.0,5.0,27.0,2.8,5.4,0.1,0.0,c,10.0
+3.800001161E10,Cocoa Krispies Cereal 1.,200,Kellogg,406.25,1.5625,37.5,0.0,3.125,0.9765625,0.0,d,18.0
+3.8000094569E10,cocoa krispies,65,Kellogg's,384.62,1.54,25.0,1.5,4.62,0.9769,0.0,d,13.0
+3.8000219528E10,Cocoa Krispies Cereal,200,Kellogg's,375.0,2.5,37.0,1.2,5.0,0.37,0.0,d,14.0
+3.800076862E10,Cocoa Krispies,439,Kellogg's,387.0,1.61,38.71,3.2,3.23,1047.5,0.0,d,14.0
+3.800232730518E12,Vanilla choc chip cashew & oat cookie,50  e,KOOKIE CAT,500.0,18.0,19.0,5.0,9.7,0.0,0.0,d,15.0
+3.800232985215E12,Barre Candy Noix de Coco,50.0,Candy Ville,562.0,38.0,25.0,12.0,5.5,0.48,56.8,d,18.0
+3.800232985239E12,Barre candy coco,50.0,Candy Ville,552.0,37.0,25.0,12.0,5.6,0.5,53.1,d,17.0
+319638.0,Dark chocolate chips,200,M&S,445.0,6.7,57.7,2.3,3.3,1.55,0.0,e,25.0
+4.003994150245E12,,375,Kellogg's,381.0,1.0,29.0,5.0,9.0,0.8,0.0,c,8.0
+4.00399465529E12,Céréales Coco Pops Chocos,375,"kellogs,Kellogg's",377.0,0.9,27.0,5.0,9.0,0.78,0.0,c,7.0
+4.005047166142E12,Eden Biene Maja Schokomüsli 375G,375,Eden,407.0,4.2,15.5,7.9,11.1,0.1,0.0,c,7.0
+4.005514075861E12,crunchy amaranth schokolade,375,Tartex,439.0,3.2,16.5,6.3,9.2,0.4,0.0,c,7.0
+4.00604002152E12,BARRE MUESLI AU CHOCOLAT 4X29G SANS HUILE DE PALME,120.0,Rapunzel,383.0,2.5,21.0,3.0,5.0,0.6,0.0,c,9.0
+4.006040054429E12,"Rapunzel Kokos-happen Zartbitter, 50 GR Stück",50,Rapunzel,556.0,31.0,39.0,5.4,4.0,0.1,0.0,e,19.0
+4.008471483342E12,Brassé bio,400,Byo essentiel,126.0,3.1,15.9,0.3,4.8,0.2,0.0,c,5.0
+4.010355177995E12,Muesli Croustillant au Chocolat sans Raisins,750.0,"dmBio,dm Bio",396.0,4.4,12.0,11.0,8.4,0.2,0.0,b,0.0
+4.01180052322E12,"Corny, Schoko Banane",200,Corny,431.0,9.8,35.9,0.0,5.1,0.4,0.0,e,22.0
+4.015637823225E12,Knusper Bälle Schoko Mix,300,Bauck hof,382.0,1.6,19.0,5.3,7.8,0.89,0.0,c,7.0
+4.015637824079E12,Muesli Con Chocolate,300,Bauck Hof,436.0,6.2,8.9,5.8,10.0,0.428,0.0,c,8.0
+4.016249009267E12,Amaranth crunchy schokolade,400,Allos,405.0,1.8,15.0,7.8,9.7,0.3,0.0,b,0.0
+4.01E12,BARRE MUESLI AU CHOCOLAT 4X29G SANS HUILE DE PALME,120.0,Rapunzel,383.0,2.5,21.0,3.0,5.0,0.6,0.0,c,9.0
+4.021234131649E12,Krunchy Sun,375,Barnhouse,474.0,3.7,19.0,7.9,9.5,0.02,0.0,c,7.0
+4.021234160007E12,CRUNCHY CHOCOLAT,375,Barnhouse,449.0,3.5,18.0,8.0,9.0,0.2,0.0,c,6.0
+4.029679520011E12,PowerBar - vanilla coconut flavour,55,PowerBar,334.0,4.2,36.0,11.0,32.0,0.3,0.0,d,11.0
+4.02E12,CRUNCHY CHOCOLAT,375.0,Barnhouse,449.0,3.5,18.0,8.0,9.0,0.2,0.0,c,6.0
+4.056489109754E12,Crème dessert chocolat,400,envia,117.0,2.2,15.8,1.0,3.1,0.1,0.0,c,4.0
+4.058172294938E12,Dark choco,100,dmBio,576.0,16.0,34.0,6.7,12.0,0.09,0.0,e,19.0
+4.0E12,Céréales Coco Pops Chocos,375.0,"kellogs,Kellogg's",377.0,0.9,27.0,5.0,9.0,0.78,0.0,c,7.0
+4.104420017849E12,,750,Alnatura,395.0,5.0,12.1,8.4,10.8,0.15,0.0,b,0.0
+4.10442001956E12,Crunchy avoine,750,Alnatura,442.0,2.8,22.0,8.1,9.8,0.17,0.0,c,6.0
+4.104420019782E12,,375,Alnatura,463.0,3.8,20.0,8.6,9.9,0.18,0.0,c,7.0
+4.104420053069E12,Galettes de riz au chocolat,100,Alnatura,501.0,15.0,27.6,2.7,7.5,0.2,0.0,e,20.0
+4.104420053786E12,Dinkel Knusper Taler,100.0,Alnatura,582.0,18.5,22.8,8.3,10.6,0.1,23.49,d,17.0
+4.1044200537E12,Nougat praliné,100.0,Alnatura,584.0,19.0,45.0,2.4,7.8,0.25,35.0,e,25.0
+4.104420054363E12,Galettes de Riz au Chocolat et Noix de Coco,100,Alnatura,489.0,15.0,25.0,3.4,7.300000191,0.200000003,0.0,d,18.0
+4.104420055643E12,Dark chocolate chips,90,Alnatura,409.0,11.5,52.5,4.9,3.1,0.025,0.0,e,20.0
+4.104420055964E12,Amandes cannelle chocolat,100,Alnatura,603.0,17.0,32.0,6.7,12.0,0.13,0.0,e,19.0
+4.2100522E7,"Gefüllte Vollmilchschokolade, Mit Kokosf&uuml...",40.0,Alnatura,541.0,28.0,41.0,7.8,4.0,0.0,11.111,e,20.0
+4.2143956E7,Noix de coco,40,Alnatura,541.0,28.8,36.1,9.4,4.7,0.08,0.0,e,19.0
+4.2214458E7,"Barre à la pâte d'amande, chocolat noir",40,Alnatura,490.0,6.7,47.0,4.1,7.2,0.03,0.0,d,18.0
+4.2247104E7,Marzipan Nougat,40,Alnatura,509.0,9.5,42.0,4.0,8.8,0.05,0.0,d,18.0
+4.260546670112E12,Cookies au chocolat,125,Alnavit,483.0,9.5,30.0,4.9,5.4,0.5,0.0,d,18.0
+4.305615478166E12,Dark chocolate chips,200,Enerbio,460.0,9.3,28.0,1.9,6.3,0.08,0.0,e,19.0
+4.62124508327E11,Céréales pétales au chocolat,375,U,372.0,0.8,26.0,4.0,9.3,0.27,0.0,b,1.0
+4.770175046092E12,Magija surelis,45,"Magija,Žemaitijos pienas",374.0,15.9,23.8,0.0,13.2,0.05,0.0,e,19.0
+5.010029204735E12,Weetabix crispy minis,450.0,Weetabix - Conad,386.0,2.3,17.0,10.0,10.0,0.16,0.0,a,-1.0
+5.01047735259E12,Country crisp bio Chocolat Noir,400,Jordans,451.0,4.3,19.1,6.0,8.0,0.03,0.0,c,8.0
+5.010477353511E12,Country Crisp Bio Chocolat noir,400,Jordans,451.0,4.3,19.1,6.0,8.0,0.03,0.0,c,8.0
+5.010477354112E12,"Granola - Flocons d'Avoine grillés aux copeaux de chocolat noir, noix de coco et graines",400,Jordans,456.0,5.3,18.5,5.7,9.4,0.03,0.0,c,9.0
+5.010477360755E12,Granola,400.0,Jordans,460.0,3.8,3.8,16.9,11.1,0.03,6.0,a,-2.0
+5.011766778008E12,Chocolate Stars,300,freee,405.0,2.5,24.0,3.5,6.6,0.29,0.0,c,10.0
+5.011835103823E12,Pure Chocolate 70%,35,Green & Black's,580.0,25.0,29.0,10.0,9.1,0.13,0.0,d,18.0
+5.013665103028E12,,90,kallo,488.0,14.6,23.4,7.4,6.8,0.0,0.0,d,16.0
+5.01E12,Chocolate Stars,300.0,freee,405.0,2.5,24.0,3.5,6.6,0.29,0.0,c,10.0
+5.050083230066E12,Kelloggs Cocopops Crunch,375.0,Kellogg's,369.0,0.9,27.0,5.0,9.0,0.78,0.0,c,7.0
+5.050083293788E12,Coco pops chocos,600,Kellogg's,381.0,1.0,29.0,5.0,9.0,0.7799999714,0.0,c,8.0
+5.050083499586E12,Coco Pops (maxi format),600,"Kellogg's,Coco Pops",387.0,1.0,35.0,2.0,5.0,0.75,0.0,d,12.0
+5.050083560149E12,Céréales Coco Pops Chocos,450,Kellogg's,377.0,0.9,27.0,5.0,9.0,0.78,0.0,c,7.0
+5.053827111058E12,Coco pops,620,"Kellogg's,Coco Pops",389.0,1.0,35.0,2.0,5.5,0.75,0.0,d,12.0
+5.053827155311E12,Kellogg's Cereales Star Wars,330,Kellogg's,381.0,0.3,8.7,1.5,2.7,0.23,0.0,c,4.0
+5.053827155946E12,Star Wars,350,"Kellogg's, kelloggs",381.0,1.0,29.0,5.0,9.0,0.78,0.0,c,8.0
+5.053827156431E12,Mini packs de céréale Frozen et Star Wars,212,Kellogg's,381.0,1.0,29.0,5.0,9.0,0.78,0.0,c,8.0
+5.053827201568E12,Choco Krispies,330,Kellogg's,377.0,0.9,27.0,5.0,9.0,0.8,0.0,c,7.0
+5.05E12,Kelloggs Cocopops Crunch,375.0,Kellogg's,369.0,0.9,27.0,5.0,9.0,0.78,0.0,c,7.0
+5.060201623205E12,PORRIDGE High Protein - Chocolat,70.0,Fuel 10K,376.0,1.7,21.9,6.3,19.4,0.11,0.0,a,-1.0
+5.060350560765E12,,300,High Protein,394.0,0.2,7.0,2.3,48.1,0.9,0.0,b,1.0
+5.060399740616E12,High Protein Chocolate Chip Cookie 60G,300,Dr Zak’s,356.0,2.9,0.0,2.3,25.0,0.74,0.0,b,2.0
+5.060401053208E12,,50,Planet organic,706.0,24.0,27.0,12.0,9.0,0.01,0.0,d,18.0
+5.060455513963E12,,500,The Protein Works,625.0,10.4,12.8,8.2,12.3,0.04,0.0,d,12.0
+5.0663811E7,eat natural chocolat noir,45,"Eat Natural, Bramble Foods",477.0,17.7,35.4,7.6,4.3,0.0,0.0,d,16.0
+5.231423390095E12,Mon Petit Dej Nutrition Bio Chocolat,190.0,ALINE & OLIVIER,448.0,2.9,17.0,6.0,10.0,0.04,9.0,b,0.0
+5.391500913002E12,Dark chocolaterice cakes,100,Bunalun Organic,485.0,13.0,27.0,5.2,6.3,0.13,0.0,d,16.0
+5.400111052274E12,Cookies au chocolat avec pépites de chocolat,200,Delhaize bio,497.0,14.0,33.0,4.5,6.5,0.25,0.0,e,20.0
+5.407006581284E12,Crunchy aux pépites de chocolat bio,200,La Vache qui regarde passer les Trains,457.0,5.8,21.2,7.6,9.3,0.11,0.0,c,9.0
+5.410059033143E12,Granulés noir,family pack,Jacques,2059.0,15.3,53.7,0.0,5.5,0.03,0.0,e,26.0
+5.411188125389E12,Drink Soja Choco,250.0,Provamel,69.0,0.7,7.8,1.2,3.4,0.14,0.0,a,-2.0
+5.411788034593E12,Galettes de riz au chocolat noir,1,Lima,495.0,14.0,24.0,6.1,6.900000095,0.0,0.0,d,15.0
+5.411788046961E12,Dark choco coco sarrasin buckwheat cakes,200,Lima,497.0,16.1,20.5,7.2,7.4,0.01,0.0,d,15.0
+5.412158001726E12,Galette De Riz Chocolat,100,Bio Food,460.0,10.7,22.4,3.4,6.5,0.01,0.0,d,16.0
+5.412672266519E12,Veganuts,200,Artisan Végane,543.0,8.9,29.5,6.5,10.4,0.06,0.0,d,14.0
+5.414150615956E12,Cécémel boisson,0.5l,Frieslandfoods,79.0,1.1,11.7,0.0,3.2,0.12,0.0,b,2.0
+5.414150629236E12,Cécémel Le seul vrai,1.0,Cécémel,70.0,1.1,10.0,0.0,3.2,0.12,0.0,b,2.0
+5.425007881622E12,"Belgian Thins Quinoa, Goji, Amande et Tournesol",200,Belvas,524.0,21.43,38.1,7.1,7.14,150.0,0.0,e,19.0
+5.600317471613E12,Avoine cacao noisettes,300.0,Shine,425.0,4.0,8.2,12.0,13.0,0.08,100.0,a,-6.0
+5.600317476885E12,Buddha protein organic vegan bar,47.0,Iswari,379.0,6.0,39.0,7.7,13.0,0.25,40.25,d,12.0
+5.60100916015E12,Chocolocos,200,Pingo Doce,402.0,1.4,30.2,4.3,7.8,0.2,0.0,c,8.0
+5.601312047872E12,,500,Continente,472.0,5.0,21.0,4.5,9.0,0.35,0.0,c,10.0
+5.6E12,Chocola,500.0,Continente,472.0,5.0,21.0,4.5,9.0,0.35,0.0,c,10.0
+6.00130600059E12,Coco Pops Chocos,350,"Kellogg's,Coco Pops",350.0,1.8,27.7,4.7,8.8,365.76,0.0,c,8.0
+6.02652206009E11,Kids chewy chocolate chip granola bars,200,Kind,434.7826087,2.173913043,21.73913043,4.347826087,4.347826087,0.7065217391,0.0,c,10.0
+6.3406562165E11,Whey advanced,200,Super Set Nutrition,460.0,6.4,4.4,0.0,88.0,0.64,0.0,d,13.0
+6.38564873008E11,Chocola,200,El Almendro,550.0,2.5,37.5,7.5,10.0,0.0,0.0,c,10.0
+6.6188008405E10,Chocolat non sucré,225,Baker's,500.0,32.1429,0.0,14.2857,10.7143,0.0,0.0,d,11.0
+6.87456222011E11,Billes De Cereales Granola Chocolat,24,Made Good,409.0,9.0,22.0,7.0,7.0,0.03,0.0,d,12.0
+7.039317007351E12,,200,"Orkla,Sætre",480.0,7.9,30.0,4.8,7.1,0.74,0.0,d,17.0
+7.108814119505E12,La Barre Boostée au chocolat noir,40.0,Nomank,388.0,2.5,22.5,7.8,8.5,0.2,0.0,b,0.0
+7.1543253E7,CHOCAPIC BIO céréales petit déjeuner,400.0,Chocapic,391.0,1.6,22.5,7.9,8.8,0.22,0.0,a,-1.0
+7.290000591797E12,Matsa Aux Chocolat- 00 G - KLP,200,Matzot Rishon,483.0,12.0,36.0,2.3,6.4,0.01,0.0,e,21.0
+7.610200096968E12,Paddy Pétales de blé complets,500,Migros,380.0,1.5,36.0,8.0,8.0,0.6000000238,0.0,c,9.0
+7.610202330183E12,Chocolate con néctar de coco ecológico,100.0,Chocolat Stella,597.0,31.0,34.0,6.0,6.0,0.2,20.0,e,19.0
+7.61082914222E12,Naturplan Müesli croquant au chocolat et à l'amarante,500,"naturaplan,Coop",475.0,6.5,20.0,6.4,8.4,0.28,0.0,d,11.0
+7.610846813059E12,Mini-galettes de riz au chocolat au lait,60,"Naturaplan,Coop",502.0,15.0,25.0,3.0,8.0,0.1,0.0,d,18.0
+7.610846813073E12,Mini-galettes de riz au chocolat noir,60,"Coop,Coop Naturaplan Bio",481.0,14.0,23.0,7.0,6.0,0.02999999933,0.0,d,16.0
+7.613030863434E12,Glace au Chocolat Suisse,900 ml / 510,"Mövenpick,Nestlé,Froneri",291.0,8.3,23.7,2.5,5.2,0.12,0.0,d,14.0
+7.613031467303E12,,375,Nestle,400.0,4.5,16.7,8.0,8.9,0.71,0.0,c,9.0
+7.613034932266E12,CRUNCH céréales,750,NESTLÉ,403.0,2.0,24.9,7.2,7.4,0.04,0.0,c,6.0
+7.613035279742E12,Nesquik au riz souflé,310,"Nestlé,Nesquik",382.0,1.1,28.6,3.1,6.2,0.41,0.0,c,9.0
+7.613035361201E12,Chocola,200,Nestle,410.0,1.333333353,25.0,5.4,8.000000318,0.5000000199,0.0,c,8.0
+7.613036669146E12,NESTLE CHOCAPIC BIO Céréales 375g,375.0,Nestlé,391.0,1.6,22.5,7.9,8.8,0.22,0.0,a,-1.0
+7.613038406541E12,NAT cereales,270.0,"Nat,Nestle",423.0,3.0,16.0,8.2,9.5,0.22,2.0,b,0.0
+7.613196001763E12,"Hirz Straciatella Jogurt, Nestlé",180,"Hirz,Nestlé,Lactalis Nestlé",120.0,2.8,14.0,0.3,4.2,0.08,0.0,c,4.0
+7.613269475576E12,,125,"M Classic Migros,M-Classic",117.0,2.5,16.0,0.5,3.4,0.1,0.0,c,4.0
+7.613287533265E12,Céréales petit déjeuner bio,645.0,Nestlé,391.0,1.6,24.9,7.9,9.0,0.22,0.0,b,0.0
+7.616600711302E12,Chocolat ferme Yogourt,180,MIGROS BIO,129.0,2.4,18.0,0.5,4.0,0.1,0.0,c,4.0
+7.61E12,CRUNCH céréales,750.0,NESTLÉ,403.0,2.0,24.9,7.2,7.4,0.04,0.0,c,6.0
+7.622210489425E12,Popcorn,200,Gretel,494.0,10.5,42.0,1.6,6.3,0.027,0.0,e,24.0
+7.6222107582E12,,90,Green & Black's,613.0,30.0,27.0,9.7,6.1,0.0,0.0,d,17.0
+7.622210762832E12,Mint Dark Chocolate 90G,200,Green & Black's,613.0,29.0,27.0,9.7,6.1,0.01,0.0,d,17.0
+7.622300742324E12,Royal Muffis Com / Petitas Milka,200,Triunfo,490.0,11.0,33.0,5.2,7.3,1.1,0.0,e,22.0
+7.87692835409E11,The Complete Cookie,200,U,368.42,6.0,21.0,8.77,14.04,0.9358,0.0,d,12.0
+7.87692870028E11,The Complete Crunchy Cookies,200,Lenny & Larry's,457.14,8.57,25.71,11.43,17.14,0.9434,0.0,d,17.0
+7.891000889701E12,,130,Nestle,138.0,2.2,11.0,1.2,2.2,142.24,0.0,d,18.0
+8.0001555075E12,Ciocofroll,650,Cabrioni,481.0,2.9,24.6,3.0,7.2,0.8,0.0,d,13.0
+8.00060505169E12,Doria Bucaneve Gocce Di Cioccolato 350G,350,"Doria, Bauli",465.0,8.2,27.0,2.6,7.4,0.56,0.0,d,18.0
+8.002590058043E12,Natura ricca,84.0,Misura,455.0,3.5,12.0,18.0,10.0,0.08,38.0,b,0.0
+8.002885007794E12,Biscotti Bio semi di chia e cioccolato,200,Fiorentini,506.0,2.8,16.0,5.8,11.0,0.02,0.0,c,6.0
+8.005020011328E12,MINI-BATONNETS DE GLACE CHOCOLAT AMANDE X6,200,Gildo Rachelli,362.0,16.0,24.0,0.0,5.0,0.15,0.0,e,19.0
+8.009004811256E12,Chocola,200,Alce nero,458.0,5.1,23.0,4.3,6.9,0.37,0.0,d,12.0
+8.009004901186E12,Chocolat Noir,100,Alce Nero,588.0,29.0,24.0,11.0,9.0,0.02,0.0,d,17.0
+8.009004901261E12,Chocolat Noir 80%,100,Alce Nero,611.0,32.0,17.0,12.0,9.0,0.02,0.0,d,15.0
+8.013399152955E12,Sperlari Zanzibar Fondente Con Nocciole 250g,250,Sperlari,557.0,16.0,37.0,8.3,6.9,0.02,0.0,e,19.0
+8.017331061923E12,Cioccolato fondente 80% cacao,200,L'Angelica,612.0,20.0,19.0,23.0,10.0,0.1,0.0,d,16.0
+8.017596057792E12,Chocola,200,"Tre Mulini, Eurospin",402.0,3.0,24.0,6.1,7.0,0.5,0.0,c,9.0
+8.020241098279E12,,6,Gelateria Ghisolfi,336.0,12.08,18.4,3.03,5.7,0.086,0.0,d,15.0
+8.02306511615E12,,70,U,481.0,7.3,54.0,5.1,7.1,0.05,0.0,d,18.0
+8.05274569013E12,Galettes de riz chocolat noir,100,Ekorigin,492.0,14.0,23.0,3.9,5.9,0.1,0.0,d,17.0
+8.052745690147E12,Galette de riz chocolat noir coco,100,Ekorigin,491.0,16.0,20.0,4.5,6.0,0.12,0.0,d,16.0
+8.052745690154E12,Galettes riz chocolat lait,100,Ekorigin,504.0,15.0,29.0,2.7,6.3,0.0,0.0,e,20.0
+8.052745690239E12,Galette riz chocolat noir orange,85,Ekorigin,476.0,12.0,27.0,5.5,6.1,0.12,0.0,d,15.0
+8.052745690253E12,galette riz chocolat noir framboise,85,Ekorigin,461.0,12.0,26.0,5.0,6.3,0.12,0.0,d,15.0
+8.076809542616E12,,300,Mulino bianco,427.0,3.4,21.0,7.0,8.5,0.513,0.0,c,9.0
+8.10048013531E11,Chocola,200,Vosges Ip  Llc.,558.0,23.26,27.91,11.6,9.3,30.0,0.0,d,17.0
+8.410297165955E12,Central Lechera Asturiana Batido De Cacao,300,Central Lechera Asturiana,68.0,1.1,9.8,0.3,3.2,0.1,0.0,b,2.0
+8.411724000597E12,Dark chocolate chips,100,Trias,503.0,20.0,52.0,6.7,7.4,0.68,0.0,e,24.0
+8.431876269741E12,Tortitas de arroz con chocolate,200,"Carrefour, Carrefour bio",497.0,14.0,27.0,3.5,7.8,0.1,0.0,d,18.0
+8.431876269758E12,Galettes de riz avec chocolat et orange,200,"Carrefour, Carrefour bio",484.0,15.0,24.0,6.0,6.1,0.03,0.0,d,16.0
+8.435037840596E12,Tortas De Arroz Chocolate Fondant,100,Sol Natural,460.0,10.7,22.4,5.7,6.5,0.0,0.0,d,14.0
+8.5239041222E10,Dark chocolate creamy almond butter squeeze pack,200,U,594.0,6.25,15.62,9.4,18.75,507.5,0.0,c,8.0
+8.53522000702E11,Dark chocolate chips,200,Enjoy Life,531.0,21.88,46.88,3.1,3.12,0.155,0.0,e,23.0
+8.53547003047E11,Chocolate Coconut Peanut Butter,454  / 16 Oz,Wild Friends,594.0,18.75,15.62,6.2,18.75,352.5,0.0,d,11.0
+8.57777004287E11,RXBAR - Coconut Chocolat,200,U,404.0,3.85,25.0,9.6,23.08,817.5,0.0,d,11.0
+8.577770043E11,Chocolate sea salt bar,200,U,404.0,3.85,25.0,9.6,23.08,1155.0,0.0,d,13.0
+8.57777004928E11,RXBAR,300,Grillon d'Or,210.0,1.5,18.0,9.6,12.0,0.525,14.29,a,-2.0
+8.591620072E11,Rxbar chocolate sea salt,200,U,404.0,3.85,25.0,9.6,23.08,1155.0,0.0,d,13.0
+8.594071484538E12,Barre Chocolat Cru,47,Really raw,407.0,9.0,36.0,11.0,9.0,0.02,0.0,c,5.0
+8.594071484583E12,Lifebar Choco Protéine Verte,200,Lifefood,397.0,4.0,29.0,8.0,20.0,0.43,0.0,c,7.0
+8.595657100019E12,Mini Lifebar Chocolat (25 GR),200,Lifefood,378.0,5.0,42.0,10.0,8.0,0.0,0.0,d,12.0
+8.59E12,Barre Chocolat Cru,47.0,Really raw,407.0,9.0,36.0,11.0,9.0,0.02,84.0,c,5.0
+8.711812420604E12,Krokante muesli pure chocolat - céréales,200,Zonnatura,447.0,5.9,15.3,10.6,9.8,0.1,0.0,c,8.0
+8.711812421373E12,Muesli pure chocolade bio,375.0,zonnatura,383.0,1.8,8.1,12.3,12.0,0.02,1.5,a,-4.0
+8.7172706E7,Dark chocolate chips,350,Penotti,568.0,9.0,49.0,5.0,3.200000048,0.0,0.0,e,20.0
+8.76012010418E11,Dark chocolate chips,200,Deavas,524.0,21.43,38.1,7.1,7.14,150.0,0.0,e,19.0
+9.176464688977E12,Croustillant chocolat,500,Bjorg,461.0,4.3,15.0,8.2,10.0,0.03,0.0,c,7.0
+9.542031695E9,Dark Chocolate 78% cocoa,3.5 oz,Lindt,566.6666667,30.0,16.66666667,7.5,10.0,0.0,0.0,d,15.0
+973182.0,Crosti pétales choc',425,Crosti,233.0,1.4,11.0,5.4,6.3,0.2,0.0,a,-3.0
