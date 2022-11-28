@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 ### IMPORT DATASET
 
@@ -10,26 +11,26 @@ lines = pd.read_csv("Part_6/final_dataset.csv")
 
 # criteria
 criteria = [
-    'Energy',#'energy-kcal_value',
-    'Sugars',#'sugars_value',
-    'Saturated_fatty_acids',#'saturated-fat_value',
-    'Salt',#'salt_value',
-    'Proteins',#'proteins_value',
-    'Fiber',#'fiber_value',
-    'Fruit/vegetable'#'Fruit/Vegetable, %'
+    'Energy',
+    'Sugars',
+    'Saturated_fatty_acids',
+    'Salt',
+    'Proteins',
+    'Fiber',
+    'Fruit/vegetable'
 ]
 #code,name,quantity,brands,Energy,Saturated_fatty_acids,Sugars,Fiber,Proteins,Salt,Fruit/vegetable,Nutriscore,Nutriscore_point
 
 # 2 sets of weights
 weights1 = [2,2,2,2,1,1,1]
 total_weights = sum(weights1)
-weights = [w/total_weights for w in weights1]
+weights1 = [w/total_weights for w in weights1]
 
-weights2 = [2,2,2,2,1,1,1]
+weights2 = [2,3,3,2,1,1,1]
 total_weights = sum(weights2)
-weights = [w/total_weights for w in weights2]
+weights2 = [w/total_weights for w in weights2]
 
-# threashold
+# threshold
 threshold = 0.5
 
 # convert data loaded to usable data for our algorithms
@@ -67,7 +68,7 @@ def generate_limiting_profiles2(lines,criteria):
 limiting_profiles = generate_limiting_profiles2(data,criteria)
 
 
-###  MAJORITY SORTING SCORE
+###  ELECTRE TRI SORT SCORE
 
 # profile format transformation
 def load_profiles(limiting_profiles):
@@ -136,15 +137,21 @@ def OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold):
     return data_res
 
 # save data in files
-def write_sorting(filename,data):
+def write_sorting(filename,data,path):
     data_str = ""
     for l in data:
         l_str = ""
         for el in l:
             l_str += str(el) + ","
         data_str += l_str[:-1]+"\n"
+    folders = path.split('/')
+    current_folder = ''
+    for folder in folders:
+        if not os.path.exists(current_folder + folder):
+            os.makedirs(current_folder + folder)
+        current_folder += folder+'/'
     print("writing sorting in "+filename+"...")
-    output = open('Part_5/Sorts/'+filename,"w")
+    output = open(path+filename,"w")
     output.write(data_str)
     output.close()
 
@@ -152,12 +159,20 @@ def write_sorting(filename,data):
 def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
     pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
-    write_sorting("PessimisticSort_"+str(threshold).replace('.','')+".csv",pessimisticScore)
-    write_sorting("OptimisticSort_"+str(threshold).replace('.','')+".csv",optimisticScore)
-    for i in range(len(pessimisticScore)):
-        if pessimisticScore[i][1] != optimisticScore[i][1]:
-            print(pessimisticScore[i],optimisticScore[i])
+    write_sorting("PessimisticSort_threshold"+str(threshold).replace('.','')+".csv",pessimisticScore)
+    write_sorting("OptimisticSort_threshold"+str(threshold).replace('.','')+".csv",optimisticScore)
 
+# save total sorts for all the assignments
+def total_sorts(data,criteria,Weights):
+    limiting_profiles = generate_limiting_profiles2(data,criteria)
+    for i,weights in enumerate(Weights):
+        for threshold in [0.5,0.6,0.7]:
+            path = 'Part_5/Sorts/'+'weights_'+str(i)+'/'
+            pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
+            optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
+            write_sorting("PessimisticSort_threshold"+str(threshold).replace('.','')+".csv",pessimisticScore,path)
+            write_sorting("OptimisticSort_threshold"+str(threshold).replace('.','')+".csv",optimisticScore,path)
+    return 0
 
 ### COMPARE SCORES
 
@@ -234,4 +249,5 @@ def stats_compare_nutriscores(score1,score2):
     score3 = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     stats_compare_nutriscores(score1,score3)
 """
-compute_total_sorts(data,criteria,weights,limiting_profiles,threshold)
+
+total_sorts(data,criteria,[weights1,weights2])
