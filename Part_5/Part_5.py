@@ -5,7 +5,8 @@ import os
 
 ### IMPORT DATASET
 
-lines = pd.read_csv("Part_6/final_dataset.csv")
+final_dataset = "Part_6/chocolate_dataset.csv"
+lines = pd.read_csv(final_dataset)
 
 ### DEFINE PARAMETERS
 
@@ -157,9 +158,9 @@ def total_sorts(data,criteria,Weights):
             pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
             optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
 
-            total_data_pessimistic = pd.read_csv("Part_6/final_dataset.csv")
+            total_data_pessimistic = pd.read_csv(final_dataset)
             total_data_pessimistic['Part_5 model'] = [d[1] for d in pessimisticScore]
-            total_data_optimistic = pd.read_csv("Part_6/final_dataset.csv")
+            total_data_optimistic = pd.read_csv(final_dataset)
             total_data_optimistic['Part_5 model'] = [d[1] for d in optimisticScore]
             
             total_data_pessimistic.to_csv(path+"PessimisticSort_threshold"+str(threshold).replace('.','')+".csv")
@@ -300,7 +301,7 @@ def final_compare(data,criteria):
     stats_compare_nutriscores(pessimistic,pessimistic4,'Pessimistic (with \'naive\' limiting profiles) nutriscore categories distribution depending on the Pessimistic ELECTRE-Tri (with threshold 0.5) categories')
     
 # to store all sorts
-#total_sorts(data,criteria,[weights1,weights2])
+# total_sorts(data,criteria,[weights1,weights2])
 
 # to display the models comparison
 final_compare(data,criteria)
