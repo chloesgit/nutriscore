@@ -138,42 +138,47 @@ def OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold):
         data_res.append([data['code'][i],category])
     return data_res
 
-# save data in files
-def write_sorting(filename,data,path):
-    data_str = ""
-    for l in data:
-        l_str = ""
-        for el in l:
-            l_str += str(el) + ","
-        data_str += l_str[:-1]+"\n"
-    folders = path.split('/')
-    current_folder = ''
-    for folder in folders:
-        if not os.path.exists(current_folder + folder):
-            os.makedirs(current_folder + folder)
-        current_folder += folder+'/'
-    print("writing sorting in "+filename+"...")
-    output = open(path+filename,"w")
-    output.write(data_str)
-    output.close()
-
-# save total sorts
-def compute_total_sorts(data,criteria,weights,limiting_profiles,threshold):
-    pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
-    optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
-    write_sorting("PessimisticSort_threshold"+str(threshold).replace('.','')+".csv",pessimisticScore)
-    write_sorting("OptimisticSort_threshold"+str(threshold).replace('.','')+".csv",optimisticScore)
-
 # save total sorts for all the assignments
 def total_sorts(data,criteria,Weights):
     limiting_profiles = generate_limiting_profiles2(data,criteria)
     for i,weights in enumerate(Weights):
         for threshold in [0.5,0.6,0.7]:
             path = 'Part_5/Sorts/'+'weights_'+str(i)+'/'
+
+            folders = path.split('/')
+            current_folder = ''
+            for folder in folders:
+                if not os.path.exists(current_folder + folder):
+                    os.makedirs(current_folder + folder)
+                current_folder += folder+'/'
+
             pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
             optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
-            write_sorting("PessimisticSort_threshold"+str(threshold).replace('.','')+".csv",pessimisticScore,path)
-            write_sorting("OptimisticSort_threshold"+str(threshold).replace('.','')+".csv",optimisticScore,path)
+
+            total_data_pessimistic = pd.read_csv("Part_6/final_dataset.csv")
+            total_data_pessimistic['Part_5 model'] = [d[1] for d in pessimisticScore]
+            total_data_optimistic = pd.read_csv("Part_6/final_dataset.csv")
+            total_data_optimistic['Part_5 model'] = [d[1] for d in optimisticScore]
+            
+            total_data_pessimistic.to_csv(path+"PessimisticSort_threshold"+str(threshold).replace('.','')+".csv")
+            total_data_optimistic.to_csv(path+"OptimisticSort_threshold"+str(threshold).replace('.','')+".csv")
+    return 0
+
+def stats_total_sorts(data,criteria,Weights):
+    limiting_profiles = generate_limiting_profiles2(data,criteria)
+    sorts = []
+    labels = []
+    for i,weights in enumerate(Weights):
+        for threshold in [0.5,0.6,0.7]:
+            pessimisticScore = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
+            optimisticScore = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
+            sorts.append(pessimisticScore)
+            sorts.append(optimisticScore)
+            label = "weight"+str(i)+"_th"+str(threshold)+"_pess"
+            labels.append(label)
+            label = "weight"+str(i)+"_th"+str(threshold)+"_opt"
+            labels.append(label)
+    stats_nutriscores(sorts,"",labels)
     return 0
 
 ### COMPARE SCORES
@@ -185,14 +190,20 @@ def extract_original_score(lines):
         res.append([lines['code'][i],lines['Nutriscore'][i]])
     return res
 
-# stats for 1 given score
-def stats_nutriscores(score,title):
+# stats for given scores
+def stats_nutriscores(scores,title="",labels=[]):
     X = [i for i in range(5)]
-    Y = [0 for _ in range(5)]
-    for el in score:
-        Y[el[1]] += 1
-    plt.plot(X,Y)
+    for k,score in enumerate(scores):
+        Y = [0 for _ in range(5)]
+        for el in score:
+            Y[el[1]] += 1
+        if labels!=[]:
+            label = labels[k]
+        else:
+            label = str(k)
+        plt.plot(X,Y,label=label)
     plt.title(title)
+    plt.legend()
     plt.show()
 
 # compare 2 nutriscores
@@ -244,26 +255,18 @@ def stats_compare_nutriscores(score1,score2,title):
 
 ### COMPARE ORIGINAL SORT AND PESSIMISTIC SORT
 
-# for threshold in [0.5,0.6,0.7]:
-#     score1 = (PessimisticElectreSorting(data,criteria,weights1,limiting_profiles,threshold))
-#     score2 = extract_original_score(lines)
-#     stats_compare_nutriscores(score1,score2)
-    #score3 = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
-    #stats_compare_nutriscores(score1,score3)
-
 def final_compare(data,criteria):
 
     limiting_profiles = generate_limiting_profiles2(data,criteria)
     weights = weights1
-    threshold = 0.5
+    threshold = 0.6
 
     pessimistic = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     original = extract_original_score(lines)
     optimistic = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     
     # stats on pessimistic and optimistic
-    stats_nutriscores(pessimistic,'Pessimistic sort: Number of products by category')
-    stats_nutriscores(optimistic,'Optimistic sort: Number of products by category')
+    stats_nutriscores([pessimistic, optimistic],'Pessimistic and Optimistic models: Number of products by category')
     #stats_nutriscores(original,'Original Nutriscore sort: Number of products by category')
 
     # comparison between pessimistic ELECTRE-Tri and original Nutriscore
@@ -278,8 +281,9 @@ def final_compare(data,criteria):
     stats_compare_nutriscores(pessimistic,pessimistic2,'Pessimistic (with weights2) nutriscore categories distribution depending on the Pessimistic ELECTRE-Tri (with weights1) categories')
     
     # comparison between pessimistic ELECTRE-Tri threshold 0.5 and 0.7
-    pessimistic3 = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,0.7)
-    stats_compare_nutriscores(pessimistic,pessimistic3,'Pessimistic (with threshold 0.7) nutriscore categories distribution depending on the Pessimistic ELECTRE-Tri (with threshold 0.5) categories')
+    pessimistic31 = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,0.5)
+    pessimistic32 = PessimisticElectreSorting(data,criteria,weights,limiting_profiles,0.7)
+    stats_compare_nutriscores(pessimistic31,pessimistic32,'Pessimistic (with threshold 0.7) nutriscore categories distribution depending on the Pessimistic ELECTRE-Tri (with threshold 0.5) categories')
     
     # comparison between pessimistic ELECTRE-Tri limiting profiles naive and v2
     limiting_profiles2 = generate_limiting_profiles(data,criteria)
@@ -290,4 +294,6 @@ def final_compare(data,criteria):
 total_sorts(data,criteria,[weights1,weights2])
 
 # to display the models comparison
-final_compare(data,criteria)
+#final_compare(data,criteria)
+
+#stats_total_sorts(data,criteria,[weights1,weights2])
