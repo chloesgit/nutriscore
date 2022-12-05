@@ -276,9 +276,8 @@ def final_compare(data,criteria):
     optimistic = OptimisticElectreSorting(data,criteria,weights,limiting_profiles,threshold)
     
     # stats on pessimistic and optimistic
-    stats_nutriscores([pessimistic, optimistic,original],'Pessimistic and Optimistic models: Number of products by category', ['Pessimistic','Optimistic','Original Nutriscore'])
-    #stats_nutriscores(original,'Original Nutriscore sort: Number of products by category')
-
+    stats_nutriscores([pessimistic, optimistic,original],'Models: Number of products by category', ['Pessimistic','Optimistic','Original Nutriscore'])
+    
     # comparison between pessimistic ELECTRE-Tri and original Nutriscore
     stats_compare_nutriscores(pessimistic,original,'Original nutriscore categories distribution depending on the Pessimistic ELECTRE-Tri categories')
     stats_compare_nutriscores(optimistic,original,'Original nutriscore categories distribution depending on the Optimistic ELECTRE-Tri categories')
