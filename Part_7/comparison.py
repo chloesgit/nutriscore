@@ -28,7 +28,7 @@ score_5 = load_score(models["Part_5"],column_name["Part_5"])
 score_6 = load_score(models["Part_6"],column_name["Part_6"])
 
 Scores = [score_4,score_5,score_6]
-Labels = ["score_4","score_5","score_6"]
+Labels = ["Neo","ELECTRE-Tri","ML based"]
 
 
 # stats for given scores
@@ -102,11 +102,11 @@ def stats_compare_nutriscores(score1,score2,title=''):
 def total_comparison():
 
     # distribution comparison
-    stats_nutriscores(Scores,title="",labels=Labels)
+    stats_nutriscores(Scores,title="Models distribution",labels=Labels)
 
     # pair comparison
-    stats_compare_nutriscores(score_4,score_5,title='Model_5 nutriscore categories distribution depending on the Model_4 categories')
-    stats_compare_nutriscores(score_4,score_6,title='Model_6 nutriscore categories distribution depending on the Model_4 categories')
-    stats_compare_nutriscores(score_5,score_6,title='Model_6 nutriscore categories distribution depending on the Model_5 categories')
+    stats_compare_nutriscores(score_4,score_5,title='Model_5 nutriscore categories distribution \ndepending on the Model_4 categories')
+    stats_compare_nutriscores(score_4,score_6,title='Model_6 nutriscore categories distribution \ndepending on the Model_4 categories')
+    stats_compare_nutriscores(score_5,score_6,title='Model_6 nutriscore categories distribution \ndepending on the Model_5 categories')
 
 total_comparison()
