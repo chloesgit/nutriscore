@@ -1,3 +1,5 @@
+# Description: This file contains the functions that calculate the points for each nutrient
+
 def sugar_points(sugar_value):
     if sugar_value <= 4.5:
         return (0)
