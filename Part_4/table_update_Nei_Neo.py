@@ -1,22 +1,27 @@
 from Nei import *
 from Neo import *
 from nutriscore_category import *
-
+from new_Neo import *
 
 # Updates the table with the Neo and Nei points
+
+
 def table_update_scores(food_dataset):
     columns = list(food_dataset)
     row_data = {}
     Nei = []
     Neo = []
+    NewNeo = []
     for index in food_dataset.index:
         for column in columns:
             row_data[column] = food_dataset.loc[index, column]
 
         Nei.append(score_Nei(row_data))
         Neo.append(score_Neo(row_data))
+        NewNeo.append(New_Neo(row_data, food_dataset))
     food_dataset["Neo"] = Neo
     food_dataset["Nei"] = Nei
+    food_dataset["NewNeo"] = NewNeo
     return (food_dataset)
 
 # Updates the table with the Neo and Nei scores
@@ -27,13 +32,16 @@ def table_update_scores_a_e(food_dataset):
     row_data = {}
     Nei = []
     Neo = []
+    NewNeo = []
     for index in food_dataset.index:
         for column in columns:
             row_data[column] = food_dataset.loc[index, column]
         Nei.append(a_e_score_Nei(row_data, food_dataset))
         Neo.append(a_e_score_Neo(row_data, food_dataset))
+        NewNeo.append(a_e_score_NewNeo(row_data, food_dataset))
     food_dataset["Neo_score"] = Neo
     food_dataset["Nei_score"] = Nei
+    food_dataset["NewNeo_score"] = NewNeo
     return (food_dataset)
 
 # Updates the table with the new computation of Nutriscore categories based on the percentiles of the dataset

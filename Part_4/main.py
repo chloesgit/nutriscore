@@ -55,3 +55,4 @@ print("Neo is lower than Nei",
 point_distribution(food_dataset)
 score_distribution(food_dataset)
 confusion_matrix(food_dataset)
+nutrient_distribution(food_dataset)
