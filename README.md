@@ -1,5 +1,29 @@
 # nutriscore
 
+Part 4
+
+This part corresponds to the creation of the models Neo, Nei and New Neo.
+
+To run the code and create all the graph, you need to run main.py.
+
+This part is composed of several files:
+
+- Nei.py Neo.py and new_Neo.py computes for a product (i.e. row in the dataset) the Neo, Nei and new Neo scores.
+
+- nutriscore_points.py : computes the score for each nutrient (salt, sugar, ...) depending on its quantity in 100g of end product. This way of computing it is the nutriscore one. It is used for Neo and Nei
+- nutrient_new_points.py : computes the score for each nutrient depending on its quantity in 100g of end product. The score is based on quantiles of the whole dataset. It is used in New Neo.
+
+- nutriscore_category.py : redefines the categories (a to e) for nutriscore using the same approach as for Neo (quantiles)
+
+- plots.py : plots all the graphs present in the report
+
+- table_update_Nei_Neo.py : generates a dataset composed of the previous one with additional columns corresponding to Neo score, Nei score and New Neo score.
+
+- comparison_with_nutriscore.py: compares Neo/Nei with nutriscore.
+
+
+
+
 Part 5
 
 This part corresponds to the creation of ELECTRE-Tri models. 
