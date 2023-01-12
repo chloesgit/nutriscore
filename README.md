@@ -21,3 +21,9 @@ The other files:
 - parameter_creation.py generates the models’ limiting profiles
 - MajoritySorting.py contains the generation of Majority Sorting models (not used)
 - ELECTRE_Tri.py contains the functions PessimisticElectreSorting and OptimisticElectreSorting used to compute the ELECTRE-Tri models.
+
+
+Part 6
+- This part contains implementation of Machine learning algorithm. There is one ipython notebook which contains the implementation of ML algorithm.
+- Source.gv.pdf shows the final tree.
+- results.csv is the prediction of nutriscore for whole data.
