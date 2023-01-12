@@ -61,7 +61,7 @@ def stats_nutriscores(scores,title="",labels=[]):
     plt.legend()
     plt.show()
 
-# compare 2 nutriscores
+# compare 2 nutriscores using pairwise comparison
 def compare_nutriscores(score1,score2):
     res = [ {} for _ in range(5) ]
     for i in range(len(score1)):
@@ -83,7 +83,7 @@ def transform_dict_to_plot_value(array):
                 score2_rep[ord(cat)-97][i] = dic[cat]
     return score2_rep
 
-# display comparison of 2 nutriscores
+# display pairwise comparison of 2 nutriscores
 def stats_compare_nutriscores(score1,score2,title):
     comparison = compare_nutriscores(score1,score2)
     labels = ['0','1','2','3','4']
