@@ -1,6 +1,6 @@
 # nutriscore
 
-Part 4
+## Part 4
 
 This part corresponds to the creation of the models Neo, Nei and New Neo.
 
@@ -24,7 +24,7 @@ This part is composed of several files:
 
 
 
-Part 5
+## Part 5
 
 This part corresponds to the creation of ELECTRE-Tri models. 
 
@@ -47,7 +47,7 @@ The other files:
 - ELECTRE_Tri.py contains the functions PessimisticElectreSorting and OptimisticElectreSorting used to compute the ELECTRE-Tri models.
 
 
-Part 6
+## Part 6
 - This part contains implementation of Machine learning algorithm. There is one ipython notebook which contains the implementation of ML algorithm.
 - Source.gv.pdf shows the final tree.
 - results.csv is the prediction of nutriscore for whole data.
